@@ -1,0 +1,1093 @@
+1-qism: Eng kerakli 100 ta so‘z/fraza
+| #   | Inglizcha   | O‘zbekcha   |
+| 1   | I think   | menimcha   |
+| 2   | I believe   | men ishonaman   |
+| 3   | in my opinion   | mening fikrimcha   |
+| 4   | agree   | rozi bo‘lmoq   |
+| 5   | disagree   | rozi bo‘lmaslik   |
+| 6   | maybe   | balki   |
+| 7   | probably   | ehtimol   |
+| 8   | actually   | aslida   |
+| 9   | however   | biroq   |
+| 10   | therefore   | shuning uchun   |
+| 11   | because   | chunki   |
+| 12   | although   | garchi   |
+| 13   | besides   | bundan tashqari   |
+| 14   | moreover   | qolaversa   |
+| 15   | for example   | masalan   |
+| 16   | in fact   | aslida   |
+| 17   | as far as I know   | bilishimcha   |
+| 18   | it depends   | vaziyatga bog‘liq   |
+| 19   | I’m not sure   | ishonchim komil emas   |
+| 20   | that’s why   | shuning uchun   |
+| 21   | explain   | tushuntirmoq   |
+| 22   | describe   | tasvirlamoq   |
+| 23   | discuss   | muhokama qilmoq   |
+| 24   | mention   | eslatib o‘tmoq   |
+| 25   | suggest   | taklif qilmoq   |
+| 26   | recommend   | tavsiya qilmoq   |
+| 27   | complain   | shikoyat qilmoq   |
+| 28   | apologize   | kechirim so‘ramoq   |
+| 29   | promise   | va’da bermoq   |
+| 30   | refuse   | rad etmoq   |
+| 31   | allow   | ruxsat bermoq   |
+| 32   | prefer   | afzal ko‘rmoq   |
+| 33   | decide   | qaror qilmoq   |
+| 34   | improve   | yaxshilamoq   |
+| 35   | practice   | mashq qilmoq   |
+| 36   | achieve   | erishmoq   |
+| 37   | avoid   | oldini olmoq   |
+| 38   | manage   | uddalashmoq   |
+| 39   | afford   | qurbi yetmoq   |
+| 40   | expect   | kutmoq   |
+| 41   | realize   | anglab yetmoq   |
+| 42   | first   | birinchi   |
+| 43   | then   | keyin   |
+| 44   | next   | keyingi   |
+| 45   | finally   | nihoyat   |
+| 46   | also   | ham   |
+| 47   | but   | lekin   |
+| 48   | so   | shuning uchun   |
+| 49   | if   | agar   |
+| 50   | unless   | agar …masa   |
+| 51   | while   | paytda   |
+| 52   | until   | gacha   |
+| 53   | since   | dan beri   |
+| 54   | as soon as   | bilanoq   |
+| 55   | in addition   | qo‘shimcha ravishda   |
+| 56   | on the other hand   | boshqa tomondan   |
+| 57   | as a result   | natijada   |
+| 58   | nevertheless   | shunga qaramay   |
+| 59   | happy   | xursand   |
+| 60   | excited   | hayajonlangan   |
+| 61   | worried   | xavotirda   |
+| 62   | nervous   | asabiy   |
+| 63   | confident   | ishonchli   |
+| 64   | disappointed   | hafsalasi pir bo‘lgan   |
+| 65   | surprised   | hayron   |
+| 66   | angry   | jahli chiqqan   |
+| 67   | tired   | charchagan   |
+| 68   | stressed   | stressda   |
+| 69   | grateful   | minnatdor   |
+| 70   | proud   | faxrlanadigan   |
+| 71   | embarrassed   | xijolat bo‘lgan   |
+| 72   | confused   | chalkashgan   |
+| 73   | satisfied   | qanoatlangan   |
+| 74   | routine   | kundalik tartib   |
+| 75   | schedule   | jadval   |
+| 76   | appointment   | uchrashuv/qabul   |
+| 77   | deadline   | muddat   |
+| 78   | task   | vazifa   |
+| 79   | responsibility   | mas’uliyat   |
+| 80   | habit   | odat   |
+| 81   | goal   | maqsad   |
+| 82   | plan   | reja   |
+| 83   | experience   | tajriba   |
+| 84   | opportunity   | imkoniyat   |
+| 85   | challenge   | qiyinchilik   |
+| 86   | solution   | yechim   |
+| 87   | advice   | maslahat   |
+| 88   | decision   | qaror   |
+| 89   | communicate   | muloqot qilmoq   |
+| 90   | conversation   | suhbat   |
+| 91   | opinion   | fikr   |
+| 92   | reason   | sabab   |
+| 93   | example   | misol   |
+| 94   | situation   | vaziyat   |
+| 95   | problem   | muammo   |
+| 96   | benefit   | foyda   |
+| 97   | disadvantage   | kamchilik   |
+| 98   | necessary   | zarur   |
+| 99   | possible   | mumkin   |
+| 100   | important   | muhim   |
+A. Sayohat — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 1   | trip   | sayohat   |
+| 2   | journey   | safar   |
+| 3   | destination   | manzil   |
+| 4   | luggage   | yuk   |
+| 5   | passport   | passport   |
+| 6   | ticket   | chipta   |
+| 7   | book a ticket   | chipta band qilmoq   |
+| 8   | departure   | jo‘nab ketish   |
+| 9   | arrival   | yetib kelish   |
+| 10   | delay   | kechikish   |
+| 11   | board a plane   | samolyotga chiqmoq   |
+| 12   | check in   | ro‘yxatdan o‘tmoq   |
+| 13   | accommodation   | turar joy   |
+| 14   | reserve   | band qilmoq   |
+| 15   | sightseeing   | diqqatga sazovor joylarni ko‘rish   |
+| 16   | guidebook   | yo‘l ko‘rsatkich kitob   |
+| 17   | souvenir   | suvenir   |
+| 18   | currency   | valyuta   |
+| 19   | exchange money   | pul almashtirmoq   |
+| 20   | lost   | yo‘qolgan   |
+B. Kundalik hayot — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 21   | wake up   | uyg‘onmoq   |
+| 22   | get dressed   | kiyinmoq   |
+| 23   | commute   | ishga/o‘qishga qatnamoq   |
+| 24   | household chores   | uy ishlari   |
+| 25   | tidy up   | yig‘ishtirmoq   |
+| 26   | laundry   | kir yuvish   |
+| 27   | grocery   | oziq-ovqat   |
+| 28   | cook   | ovqat pishirmoq   |
+| 29   | relax   | dam olmoq   |
+| 30   | hang out   | vaqt o‘tkazmoq   |
+| 31   | meet up   | uchrashmoq   |
+| 32   | run errands   | mayda ishlarni bajarmoq   |
+| 33   | spend time   | vaqt sarflamoq   |
+| 34   | save time   | vaqt tejamoq   |
+| 35   | waste time   | vaqtni behuda o‘tkazmoq   |
+| 36   | on time   | o‘z vaqtida   |
+| 37   | late   | kech   |
+| 38   | early   | erta   |
+| 39   | busy   | band   |
+| 40   | free   | bo‘sh   |
+C. Ish va o‘qish — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 41   | apply   | ariza topshirmoq   |
+| 42   | interview   | suhbat   |
+| 43   | employer   | ish beruvchi   |
+| 44   | employee   | xodim   |
+| 45   | salary   | maosh   |
+| 46   | colleague   | hamkasb   |
+| 47   | meeting   | yig‘ilish   |
+| 48   | report   | hisobot   |
+| 49   | project   | loyiha   |
+| 50   | deadline   | muddat   |
+| 51   | overtime   | qo‘shimcha ish   |
+| 52   | promote   | lavozim ko‘tarmoq   |
+| 53   | resign   | ishdan bo‘shamoq   |
+| 54   | hire   | ishga olmoq   |
+| 55   | train   | o‘qitmoq/mashq qilmoq   |
+| 56   | skill   | ko‘nikma   |
+| 57   | knowledge   | bilim   |
+| 58   | exam   | imtihon   |
+| 59   | pass   | o‘tmoq   |
+| 60   | fail   | yiqilmoq   |
+D. Sog‘liq — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 61   | health   | sog‘liq   |
+| 62   | healthy   | sog‘lom   |
+| 63   | illness   | kasallik   |
+| 64   | symptom   | alomat   |
+| 65   | headache   | bosh og‘rig‘i   |
+| 66   | fever   | isitma   |
+| 67   | cough   | yo‘tal   |
+| 68   | pain   | og‘riq   |
+| 69   | medicine   | dori   |
+| 70   | prescription   | retsept   |
+| 71   | doctor   | shifokor   |
+| 72   | recover   | tuzalmoq   |
+| 73   | injury   | jarohat   |
+| 74   | exercise   | mashq   |
+| 75   | diet   | parhez   |
+| 76   | sleep   | uyqu   |
+| 77   | stress   | stress   |
+| 78   | mental health   | ruhiy salomatlik   |
+| 79   | emergency   | shoshilinch holat   |
+| 80   | ambulance   | tez yordam   |
+E. Muloqot va munosabat — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 81   | introduce   | tanishtirmoq   |
+| 82   | greet   | salomlashmoq   |
+| 83   | interrupt   | gapni bo‘lmoq   |
+| 84   | reply   | javob bermoq   |
+| 85   | ask for help   | yordam so‘ramoq   |
+| 86   | offer   | taklif qilmoq   |
+| 87   | accept   | qabul qilmoq   |
+| 88   | decline   | rad etmoq   |
+| 89   | invite   | taklif qilmoq   |
+| 90   | keep in touch   | aloqada bo‘lmoq   |
+| 91   | get along   | yaxshi chiqishmoq   |
+| 92   | argue   | bahslashmoq   |
+| 93   | misunderstand   | noto‘g‘ri tushunmoq   |
+| 94   | clarify   | aniqlashtirmoq   |
+| 95   | express   | fikr bildirmoq   |
+| 96   | share   | fikr bo‘lishmoq   |
+| 97   | support   | qo‘llab-quvvatlamoq   |
+| 98   | respect   | hurmat qilmoq   |
+| 99   | trust   | ishonmoq   |
+| 100   | polite   | xushmuomala   |
+3-qism: B1–B2 gaplashish uchun yana 100 ta so‘z/fraza
+A. Ta’lim — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 1   | education   | ta’lim   |
+| 2   | knowledge   | bilim   |
+| 3   | subject   | fan   |
+| 4   | course   | kurs   |
+| 5   | lesson   | dars   |
+| 6   | lecture   | ma’ruza   |
+| 7   | homework   | uy vazifasi   |
+| 8   | assignment   | topshiriq   |
+| 9   | exam   | imtihon   |
+| 10   | grade   | baho   |
+| 11   | certificate   | sertifikat   |
+| 12   | degree   | diplom   |
+| 13   | university   | universitet   |
+| 14   | research   | tadqiqot   |
+| 15   | explain   | tushuntirmoq   |
+| 16   | understand   | tushunmoq   |
+| 17   | memorize   | yodlamoq   |
+| 18   | revise   | takrorlamoq   |
+| 19   | improve   | yaxshilamoq   |
+| 20   | achieve   | erishmoq   |
+B. Fikr bildirish — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 21   | in my opinion   | mening fikrimcha   |
+| 22   | I think   | menimcha   |
+| 23   | I believe   | men ishonaman   |
+| 24   | as far as I know   | bilishimcha   |
+| 25   | it seems to me   | menga shunday tuyuladi   |
+| 26   | I agree   | men roziman   |
+| 27   | I disagree   | men rozi emasman   |
+| 28   | partly   | qisman   |
+| 29   | totally   | butunlay   |
+| 30   | however   | biroq   |
+| 31   | on the other hand   | boshqa tomondan   |
+| 32   | for example   | masalan   |
+| 33   | in fact   | aslida   |
+| 34   | especially   | ayniqsa   |
+| 35   | generally   | umuman   |
+| 36   | personally   | shaxsan   |
+| 37   | obviously   | aniq ko‘rinib turibdi   |
+| 38   | probably   | ehtimol   |
+| 39   | definitely   | albatta   |
+| 40   | it depends   | vaziyatga bog‘liq   |
+C. Muammo va yechim — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 41   | problem   | muammo   |
+| 42   | issue   | masala   |
+| 43   | cause   | sabab   |
+| 44   | reason   | sabab   |
+| 45   | result   | natija   |
+| 46   | effect   | ta’sir   |
+| 47   | solution   | yechim   |
+| 48   | solve   | hal qilmoq   |
+| 49   | prevent   | oldini olmoq   |
+| 50   | avoid   | qochmoq   |
+| 51   | deal with   | hal qilmoq/shug‘ullanmoq   |
+| 52   | face   | duch kelmoq   |
+| 53   | improve   | yaxshilamoq   |
+| 54   | reduce   | kamaytirmoq   |
+| 55   | increase   | oshirmoq   |
+| 56   | change   | o‘zgartirmoq   |
+| 57   | suggest   | taklif qilmoq   |
+| 58   | recommend   | tavsiya qilmoq   |
+| 59   | consider   | hisobga olmoq   |
+| 60   | decide   | qaror qilmoq   |
+D. His-tuyg‘ular — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 61   | happy   | xursand   |
+| 62   | sad   | xafa   |
+| 63   | angry   | jahli chiqqan   |
+| 64   | worried   | xavotirda   |
+| 65   | nervous   | asabiy   |
+| 66   | excited   | hayajonlangan   |
+| 67   | tired   | charchagan   |
+| 68   | stressed   | stressda   |
+| 69   | calm   | xotirjam   |
+| 70   | confident   | ishonchli   |
+| 71   | disappointed   | hafsalasi pir bo‘lgan   |
+| 72   | surprised   | hayron   |
+| 73   | confused   | chalkashgan   |
+| 74   | embarrassed   | xijolat bo‘lgan   |
+| 75   | grateful   | minnatdor   |
+| 76   | proud   | faxrlanadigan   |
+| 77   | lonely   | yolg‘iz   |
+| 78   | satisfied   | qanoatlangan   |
+| 79   | afraid   | qo‘rqqan   |
+| 80   | interested   | qiziqqan   |
+E. Texnologiya — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 81   | technology   | texnologiya   |
+| 82   | device   | qurilma   |
+| 83   | smartphone   | smartfon   |
+| 84   | computer   | kompyuter   |
+| 85   | internet   | internet   |
+| 86   | website   | veb-sayt   |
+| 87   | app   | ilova   |
+| 88   | social media   | ijtimoiy tarmoq   |
+| 89   | message   | xabar   |
+| 90   | email   | elektron pochta   |
+| 91   | online   | onlayn   |
+| 92   | offline   | oflayn   |
+| 93   | download   | yuklab olmoq   |
+| 94   | upload   | yuklamoq   |
+| 95   | search   | qidirmoq   |
+| 96   | connect   | ulanmoq   |
+| 97   | password   | parol   |
+| 98   | account   | akkaunt   |
+| 99   | privacy   | maxfiylik   |
+| 100   | screen time   | ekran vaqti   |
+A. Sayohat davomi — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 301   | itinerary   | sayohat rejasi   |
+| 302   | route   | marshrut   |
+| 303   | map   | xarita   |
+| 304   | landmark   | diqqatga sazovor joy   |
+| 305   | tourist   | sayyoh   |
+| 306   | local   | mahalliy aholi   |
+| 307   | abroad   | chet elda   |
+| 308   | domestic flight   | ichki reys   |
+| 309   | border   | chegara   |
+| 310   | customs   | bojxona   |
+| 311   | visa   | viza   |
+| 312   | flight   | parvoz   |
+| 313   | boarding pass   | bortga chiqish taloni   |
+| 314   | luggage claim   | yukni olish joyi   |
+| 315   | cancel   | bekor qilmoq   |
+| 316   | delay   | kechikmoq   |
+| 317   | guide   | yo‘lboshchi   |
+| 318   | explore   | kashf qilmoq   |
+| 319   | adventure   | sarguzasht   |
+| 320   | unforgettable   | unutilmas   |
+B. Tabiat va muhit — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 321   | environment   | atrof-muhit   |
+| 322   | nature   | tabiat   |
+| 323   | climate   | iqlim   |
+| 324   | weather   | ob-havo   |
+| 325   | air quality   | havo sifati   |
+| 326   | recycle   | qayta ishlamoq   |
+| 327   | waste   | chiqindi   |
+| 328   | energy   | energiya   |
+| 329   | renewable energy   | qayta tiklanuvchi energiya   |
+| 330   | forest   | o‘rmon   |
+| 331   | river   | daryo   |
+| 332   | mountain   | tog‘   |
+| 333   | sea   | dengiz   |
+| 334   | wildlife   | yovvoyi tabiat   |
+| 335   | protect   | himoya qilmoq   |
+| 336   | climate change   | iqlim o‘zgarishi   |
+| 337   | global warming   | global isish   |
+| 338   | drought   | qurg‘oqchilik   |
+| 339   | flood   | suv toshqini   |
+| 340   | sustainable   | barqaror   |
+C. Pul va xarid — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 341   | money   | pul   |
+| 342   | cash   | naqd pul   |
+| 343   | bank card   | bank kartasi   |
+| 344   | price   | narx   |
+| 345   | cost   | qiymat/turamoq   |
+| 346   | cheap   | arzon   |
+| 347   | expensive   | qimmat   |
+| 348   | discount   | chegirma   |
+| 349   | sale   | savdo/chegirma mavsumi   |
+| 350   | receipt   | chek   |
+| 351   | refund   | pulni qaytarish   |
+| 352   | exchange   | almashtirmoq   |
+| 353   | budget   | byudjet   |
+| 354   | save money   | pul tejamoq   |
+| 355   | spend money   | pul sarflamoq   |
+| 356   | afford   | qurbi yetmoq   |
+| 357   | borrow   | qarz olmoq   |
+| 358   | lend   | qarz bermoq   |
+| 359   | pay   | to‘lamoq   |
+| 360   | bill   | hisob   |
+D. Shahar hayoti — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 361   | city   | shahar   |
+| 362   | town   | shaharcha   |
+| 363   | village   | qishloq   |
+| 364   | population   | aholi soni   |
+| 365   | traffic   | tirbandlik   |
+| 366   | public transport   | jamoat transporti   |
+| 367   | subway   | metro   |
+| 368   | bus stop   | avtobus bekati   |
+| 369   | crowded   | gavjum   |
+| 370   | noisy   | shovqinli   |
+| 371   | peaceful   | tinch   |
+| 372   | facilities   | qulayliklar   |
+| 373   | neighborhood   | mahalla/atrof   |
+| 374   | infrastructure   | infratuzilma   |
+| 375   | parking   | avtoturargoh   |
+| 376   | pedestrian   | piyoda   |
+| 377   | cycle lane   | velosiped yo‘lagi   |
+| 378   | green space   | yashil hudud   |
+| 379   | rent   | ijara haqi   |
+| 380   | commute   | qatnamoq   |
+E. Madaniyat — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 381   | culture   | madaniyat   |
+| 382   | tradition   | an’ana   |
+| 383   | custom   | urf-odat   |
+| 384   | festival   | bayram/festival   |
+| 385   | celebrate   | nishonlamoq   |
+| 386   | ceremony   | marosim   |
+| 387   | heritage   | meros   |
+| 388   | language   | til   |
+| 389   | dialect   | sheva   |
+| 390   | art   | san’at   |
+| 391   | music   | musiqa   |
+| 392   | literature   | adabiyot   |
+| 393   | film   | film   |
+| 394   | theater   | teatr   |
+| 395   | museum   | muzey   |
+| 396   | religion   | din   |
+| 397   | belief   | e’tiqod   |
+| 398   | generation   | avlod   |
+| 399   | respect   | hurmat   |
+| 400   | identity   | o‘zlik/shaxsiyat   |
+A. Ish suhbati — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 401   | apply for a job   | ishga ariza topshirmoq   |
+| 402   | CV / resume   | rezyume   |
+| 403   | cover letter   | qo‘shimcha xat   |
+| 404   | vacancy   | bo‘sh ish o‘rni   |
+| 405   | candidate   | nomzod   |
+| 406   | interviewer   | suhbat olib boruvchi   |
+| 407   | experience   | tajriba   |
+| 408   | qualification   | malaka   |
+| 409   | strength   | kuchli tomon   |
+| 410   | weakness   | kuchsiz tomon   |
+| 411   | responsible for   | javobgar bo‘lmoq   |
+| 412   | in charge of   | boshqarmoq   |
+| 413   | team player   | jamoada ishlay oladigan   |
+| 414   | hard-working   | mehnatkash   |
+| 415   | reliable   | ishonchli   |
+| 416   | flexible   | moslashuvchan   |
+| 417   | suitable   | mos   |
+| 418   | available   | mavjud/bo‘sh   |
+| 419   | salary expectation   | kutilayotgan maosh   |
+| 420   | notice period   | ogohlantirish muddati   |
+B. Uchrashuvlar — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 421   | meeting   | yig‘ilish   |
+| 422   | arrange a meeting   | uchrashuv tashkil qilmoq   |
+| 423   | schedule   | jadvalga qo‘ymoq   |
+| 424   | agenda   | kun tartibi   |
+| 425   | attend   | qatnashmoq   |
+| 426   | participant   | ishtirokchi   |
+| 427   | discuss   | muhokama qilmoq   |
+| 428   | point   | fikr/nuqta   |
+| 429   | suggestion   | taklif   |
+| 430   | decision   | qaror   |
+| 431   | agree on   | kelishmoq   |
+| 432   | come to an agreement   | kelishuvga erishmoq   |
+| 433   | postpone   | kechiktirmoq   |
+| 434   | cancel   | bekor qilmoq   |
+| 435   | confirm   | tasdiqlamoq   |
+| 436   | reschedule   | vaqtini o‘zgartirmoq   |
+| 437   | on behalf of   | nomidan   |
+| 438   | sum up   | umumlashtirmoq   |
+| 439   | follow up   | davom ettirmoq/nazorat qilmoq   |
+| 440   | minutes   | yig‘ilish bayoni   |
+C. Telefon suhbati — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 441   | hello   | alo   |
+| 442   | this is … speaking   | bu … gapirmoqda   |
+| 443   | can I speak to …?   | … bilan gaplashsam bo‘ladimi?   |
+| 444   | hold on   | kutib turing   |
+| 445   | hang on   | bir oz kuting   |
+| 446   | call back   | qayta qo‘ng‘iroq qilmoq   |
+| 447   | wrong number   | noto‘g‘ri raqam   |
+| 448   | leave a message   | xabar qoldirmoq   |
+| 449   | take a message   | xabarni qabul qilmoq   |
+| 450   | break up   | aloqa uzilmoq   |
+| 451   | line is busy   | liniya band   |
+| 452   | speak up   | balandroq gapirmoq   |
+| 453   | repeat   | takrorlamoq   |
+| 454   | connection   | aloqa   |
+| 455   | voice message   | ovozli xabar   |
+| 456   | missed call   | o‘tkazib yuborilgan qo‘ng‘iroq   |
+| 457   | ring   | jiringlamoq   |
+| 458   | answer   | javob bermoq   |
+| 459   | put through   | ulamoq   |
+| 460   | get back to   | keyin javob bermoq   |
+D. Rozilik va rad etish — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 461   | sure   | albatta   |
+| 462   | of course   | albatta   |
+| 463   | no problem   | muammo yo‘q   |
+| 464   | that’s fine   | yaxshi   |
+| 465   | I’d love to   | bajonidil   |
+| 466   | sounds good   | yaxshi fikr   |
+| 467   | deal   | kelishdik   |
+| 468   | I’m afraid not   | afsuski yo‘q   |
+| 469   | I’d rather not   | afzal ko‘rmayman   |
+| 470   | not really   | unchalik emas   |
+| 471   | sorry, I can’t   | kechirasiz, qila olmayman   |
+| 472   | maybe later   | balki keyinroq   |
+| 473   | I’m not sure   | ishonchim komil emas   |
+| 474   | it’s impossible   | imkonsiz   |
+| 475   | unfortunately   | afsuski   |
+| 476   | I have to refuse   | rad etishga majburman   |
+| 477   | let me think   | o‘ylab ko‘ray   |
+| 478   | I’ll consider it   | hisobga olaman   |
+| 479   | that works for me   | menga mos   |
+| 480   | that doesn’t work   | bu mos emas   |
+E. Vaqtni ifodalash — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 481   | now   | hozir   |
+| 482   | soon   | tez orada   |
+| 483   | later   | keyinroq   |
+| 484   | recently   | yaqinda   |
+| 485   | lately   | oxirgi paytlarda   |
+| 486   | already   | allaqachon   |
+| 487   | yet   | hali   |
+| 488   | still   | hali ham   |
+| 489   | immediately   | darhol   |
+| 490   | eventually   | oxir-oqibat   |
+| 491   | meanwhile   | shu orada   |
+| 492   | at the moment   | hozirgi paytda   |
+| 493   | in advance   | oldindan   |
+| 494   | by the time   | vaqtga kelib   |
+| 495   | from time to time   | vaqti-vaqti bilan   |
+| 496   | all the time   | doim   |
+| 497   | sooner or later   | ertami-kechmi   |
+| 498   | in the long run   | uzoq muddatda   |
+| 499   | temporary   | vaqtinchalik   |
+| 500   | permanent   | doimiy   |
+A. Oziq-ovqat va restoran — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 501   | food   | ovqat   |
+| 502   | meal   | taom (ovqatlanish)   |
+| 503   | breakfast   | nonushta   |
+| 504   | lunch   | tushlik   |
+| 505   | dinner   | kechki ovqat   |
+| 506   | snack   | yengil taom   |
+| 507   | menu   | menyu   |
+| 508   | order   | buyurtma bermoq   |
+| 509   | waiter   | ofitsiant   |
+| 510   | bill   | hisob   |
+| 511   | tip   | choychaqa   |
+| 512   | delicious   | mazali   |
+| 513   | tasty   | totli   |
+| 514   | spicy   | achchiq   |
+| 515   | salty   | sho‘r   |
+| 516   | sweet   | shirin   |
+| 517   | sour   | nordon   |
+| 518   | fresh   | yangi   |
+| 519   | takeaway   | olib ketish uchun   |
+| 520   | reservation   | joy band qilish   |
+B. Sport — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 521   | sport   | sport   |
+| 522   | team   | jamoa   |
+| 523   | player   | o‘yinchi   |
+| 524   | coach   | murabbiy   |
+| 525   | match   | o‘yin/uchrashuv   |
+| 526   | competition   | musobaqa   |
+| 527   | championship   | chempionat   |
+| 528   | win   | yutmoq   |
+| 529   | lose   | yutqazmoq   |
+| 530   | draw   | durang   |
+| 531   | score   | hisob   |
+| 532   | goal   | gol   |
+| 533   | referee   | hakam   |
+| 534   | fan   | muxlis   |
+| 535   | training   | mashg‘ulot   |
+| 536   | fitness   | jismoniy tayyorgarlik   |
+| 537   | injury   | jarohat   |
+| 538   | stamina   | chidamlilik   |
+| 539   | take part in   | qatnashmoq   |
+| 540   | work out   | mashq qilmoq   |
+C. Media va yangiliklar — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 541   | news   | yangilik   |
+| 542   | article   | maqola   |
+| 543   | headline   | sarlavha   |
+| 544   | report   | xabar/hisobot   |
+| 545   | journalist   | jurnalist   |
+| 546   | interview   | intervyu   |
+| 547   | source   | manba   |
+| 548   | broadcast   | translyatsiya qilmoq   |
+| 549   | live   | jonli   |
+| 550   | channel   | kanal   |
+| 551   | advertisement   | reklama   |
+| 552   | subscribe   | obuna bo‘lmoq   |
+| 553   | publish   | chop etmoq   |
+| 554   | breaking news   | shoshilinch xabar   |
+| 555   | fake news   | yolg‘on xabar   |
+| 556   | reliable   | ishonchli   |
+| 557   | biased   | biryoqlama   |
+| 558   | opinion   | fikr   |
+| 559   | update   | yangilamoq   |
+| 560   | announce   | e’lon qilmoq   |
+D. Tabiat hodisalari — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 561   | earthquake   | zilzila   |
+| 562   | storm   | bo‘ron   |
+| 563   | thunder   | momaqaldiroq   |
+| 564   | lightning   | chaqmoq   |
+| 565   | rain   | yomg‘ir   |
+| 566   | snow   | qor   |
+| 567   | wind   | shamol   |
+| 568   | fog   | tuman   |
+| 569   | heatwave   | jazirama   |
+| 570   | freezing   | sovuq/muzdek   |
+| 571   | humidity   | namlik   |
+| 572   | forecast   | prognoz   |
+| 573   | temperature   | harorat   |
+| 574   | disaster   | falokat   |
+| 575   | warning   | ogohlantirish   |
+| 576   | evacuate   | evakuatsiya qilmoq   |
+| 577   | damage   | zarar   |
+| 578   | survive   | omon qolmoq   |
+| 579   | rescue   | qutqarmoq   |
+| 580   | unpredictable   | oldindan aytib bo‘lmaydigan   |
+E. Bog‘lovchi so‘zlar — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 581   | and   | va   |
+| 582   | but   | lekin   |
+| 583   | or   | yoki   |
+| 584   | so   | shuning uchun   |
+| 585   | because   | chunki   |
+| 586   | although   | garchi   |
+| 587   | however   | biroq   |
+| 588   | therefore   | shu sababli   |
+| 589   | moreover   | qolaversa   |
+| 590   | besides   | bundan tashqari   |
+| 591   | in addition   | qo‘shimcha ravishda   |
+| 592   | as a result   | natijada   |
+| 593   | for instance   | masalan   |
+| 594   | in other words   | boshqacha aytganda   |
+| 595   | on the contrary   | aksincha   |
+| 596   | nevertheless   | shunga qaramay   |
+| 597   | whereas   | holbuki   |
+| 598   | in conclusion   | xulosa qilib aytganda   |
+| 599   | to sum up   | umumlashtirsak   |
+| 600   | as long as   | shart bilan/…gacha   |
+A. Uy-joy — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 601   | house   | uy   |
+| 602   | flat / apartment   | kvartira   |
+| 603   | rent   | ijaraga olmoq   |
+| 604   | landlord   | uy egasi   |
+| 605   | tenant   | ijarachi   |
+| 606   | furniture   | mebel   |
+| 607   | spacious   | keng   |
+| 608   | cosy   | shinam   |
+| 609   | modern   | zamonaviy   |
+| 610   | old-fashioned   | eski uslubdagi   |
+| 611   | neighborhood   | mahalla/atrof   |
+| 612   | balcony   | balkon   |
+| 613   | garage   | garaj   |
+| 614   | move in   | ko‘chib kirmoq   |
+| 615   | move out   | ko‘chib chiqmoq   |
+| 616   | utilities   | kommunal xizmatlar   |
+| 617   | deposit   | garov puli   |
+| 618   | lease   | ijara shartnomasi   |
+| 619   | repair   | ta’mirlamoq   |
+| 620   | share a flat   | kvartirani birga ijaraga olmoq   |
+B. Kiyim va moda — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 621   | clothes   | kiyim   |
+| 622   | wear   | kiymoq   |
+| 623   | try on   | kiyib ko‘rmoq   |
+| 624   | fit   | o‘lchamiga mos kelmoq   |
+| 625   | suit   | yarashmoq   |
+| 626   | size   | o‘lcham   |
+| 627   | style   | uslub   |
+| 628   | fashionable   | modaga mos   |
+| 629   | casual   | kundalik   |
+| 630   | formal   | rasmiy   |
+| 631   | comfortable   | qulay   |
+| 632   | tight   | tang   |
+| 633   | loose   | keng   |
+| 634   | pattern   | naqsh   |
+| 635   | match   | mos kelmoq   |
+| 636   | accessory   | aksessuar   |
+| 637   | brand   | brend   |
+| 638   | second-hand   | ishlatilgan   |
+| 639   | discount   | chegirma   |
+| 640   | look good on you   | sizga yarashadi   |
+C. Oila va odamlar — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 641   | family   | oila   |
+| 642   | relative   | qarindosh   |
+| 643   | parent   | ota-ona   |
+| 644   | sibling   | aka-uka/opa-singil   |
+| 645   | cousin   | amakivachcha   |
+| 646   | spouse   | turmush o‘rtoq   |
+| 647   | generation   | avlod   |
+| 648   | raise children   | farzand tarbiyalamoq   |
+| 649   | get married   | turmush qurmoq   |
+| 650   | get divorced   | ajrashmoq   |
+| 651   | close friend   | yaqin do‘st   |
+| 652   | colleague   | hamkasb   |
+| 653   | neighbor   | qo‘shni   |
+| 654   | stranger   | notanish odam   |
+| 655   | personality   | shaxsiyat/xarakter   |
+| 656   | generous   | saxiy   |
+| 657   | honest   | halol   |
+| 658   | shy   | uyatchan   |
+| 659   | outgoing   | muloqotchan   |
+| 660   | stubborn   | qaysar   |
+D. Taklif qilish va uzr so‘rash — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 661   | Would you like to…?   | …xohlaysizmi?   |
+| 662   | How about…?   | …chi?   |
+| 663   | Why don’t we…?   | …sak, nega yo‘q?   |
+| 664   | Let’s…   | kel(lar), …aylik   |
+| 665   | Do you feel like…?   | …ga kayfiyatingiz bormi?   |
+| 666   | I’d like to invite you   | sizni taklif qilmoqchiman   |
+| 667   | Are you free…?   | …bo‘shmisiz?   |
+| 668   | Shall we…?   | …aylikmi?   |
+| 669   | Sorry, I can’t   | kechirasiz, qila olmayman   |
+| 670   | I’m afraid I’m busy   | afsuski bandman   |
+| 671   | Maybe another time   | balki boshqa safar   |
+| 672   | I do apologize   | uzr so‘rayman   |
+| 673   | I’m really sorry   | juda afsusdaman   |
+| 674   | It was my fault   | bu mening aybim edi   |
+| 675   | Excuse me   | kechirasiz   |
+| 676   | No worries   | hechqisi yo‘q   |
+| 677   | That’s all right   | mayli, hechqisi yo‘q   |
+| 678   | Don’t mention it   | gapirmang, arzimaydi   |
+| 679   | I didn’t mean to   | xohlamagan edim   |
+| 680   | Forgive me   | meni kechiring   |
+E. Fikrni isbotlash — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 681   | I’m convinced that   | ishonchim komil   |
+| 682   | I strongly believe   | qat’iy ishonaman   |
+| 683   | there is no doubt   | shubha yo‘q   |
+| 684   | it is clear that   | aniq ko‘rinib turibdi   |
+| 685   | according to   | ga ko‘ra   |
+| 686   | research shows   | tadqiqot ko‘rsatadi   |
+| 687   | statistics show   | statistika ko‘rsatadi   |
+| 688   | evidence   | dalil   |
+| 689   | prove   | isbotlamoq   |
+| 690   | support an argument   | fikrni qo‘llab-quvvatlamoq   |
+| 691   | point out   | ta’kidlab o‘tmoq   |
+| 692   | emphasize   | urg‘u bermoq   |
+| 693   | take into account   | hisobga olmoq   |
+| 694   | compare   | solishtirmoq   |
+| 695   | contrast   | qiyoslamoq   |
+| 696   | give an example   | misol keltirmoq   |
+| 697   | make a point   | fikr bildirmoq   |
+| 698   | to some extent   | ma’lum darajada   |
+| 699   | that’s a good point   | yaxshi fikr   |
+| 700   | I see your point, but…   | fikringizni tushundim, lekin…   |
+A. Kelishuv va muzokara — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 701   | negotiate   | muzokara qilmoq   |
+| 702   | agreement   | kelishuv   |
+| 703   | compromise   | murosaga kelish   |
+| 704   | reach an agreement   | kelishuvga erishmoq   |
+| 705   | make a deal   | kelishmoq   |
+| 706   | condition   | shart   |
+| 707   | term   | shart/muddat   |
+| 708   | offer   | taklif   |
+| 709   | counteroffer   | qarshi taklif   |
+| 710   | accept an offer   | taklifni qabul qilmoq   |
+| 711   | reject an offer   | taklifni rad etmoq   |
+| 712   | fair   | adolatli   |
+| 713   | reasonable   | oqilona   |
+| 714   | advantage   | afzallik   |
+| 715   | disadvantage   | kamchilik   |
+| 716   | mutual   | o‘zaro   |
+| 717   | benefit both sides   | ikki tomonga ham foyda   |
+| 718   | settle   | hal qilmoq   |
+| 719   | insist   | turib olmoq   |
+| 720   | give in   | yon bermoq   |
+B. Tavsiya va maslahat — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 721   | recommend   | tavsiya qilmoq   |
+| 722   | suggest   | taklif qilmoq   |
+| 723   | advice   | maslahat   |
+| 724   | advise   | maslahat bermoq   |
+| 725   | You should…   | …ishingiz kerak   |
+| 726   | You’d better…   | …ganingiz yaxshi   |
+| 727   | Why don’t you…?   | nega …maysiz?   |
+| 728   | If I were you, I would…   | sizning o‘rningizda bo‘lsam, …derdim   |
+| 729   | It might be a good idea to…   | …yaxshi fikr bo‘lishi mumkin   |
+| 730   | Have you considered…?   | …ni o‘ylab ko‘rdingizmi?   |
+| 731   | make sure   | ishonch hosil qilmoq   |
+| 732   | be careful   | ehtiyot bo‘lmoq   |
+| 733   | avoid   | qochmoq   |
+| 734   | try to   | harakat qilmoq   |
+| 735   | consider   | hisobga olmoq   |
+| 736   | it’s worth   | arziydi   |
+| 737   | it’s not worth   | arzimaydi   |
+| 738   | useful tip   | foydali maslahat   |
+| 739   | follow advice   | maslahatga amal qilmoq   |
+| 740   | take my advice   | maslahatimga quloq soling   |
+C. Ehtiyoj va majburiyat — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 741   | must   | shart   |
+| 742   | have to   | majbur bo‘lmoq   |
+| 743   | need to   | kerak bo‘lmoq   |
+| 744   | should   | kerak (tavsiya)   |
+| 745   | ought to   | lozim   |
+| 746   | be supposed to   | nazarda tutilgan   |
+| 747   | be allowed to   | ruxsat berilgan   |
+| 748   | be required to   | talab qilinadi   |
+| 749   | necessary   | zarur   |
+| 750   | essential   | juda muhim   |
+| 751   | obligatory   | majburiy   |
+| 752   | optional   | ixtiyoriy   |
+| 753   | responsibility   | mas’uliyat   |
+| 754   | take responsibility   | mas’uliyatni olmoq   |
+| 755   | be in charge of   | javobgar bo‘lmoq   |
+| 756   | manage to   | uddalashmoq   |
+| 757   | have no choice   | boshqa iloj yo‘q   |
+| 758   | forced to   | majbur bo‘lmoq   |
+| 759   | permit   | ruxsat bermoq   |
+| 760   | forbid   | taqiqlamoq   |
+D. Maqsad va sabab — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 761   | purpose   | maqsad   |
+| 762   | aim   | maqsad   |
+| 763   | goal   | maqsad   |
+| 764   | reason   | sabab   |
+| 765   | cause   | sabab bo‘lmoq   |
+| 766   | result   | natija   |
+| 767   | consequence   | oqibat   |
+| 768   | in order to   | maqsadida   |
+| 769   | so that   | shu maqsadda   |
+| 770   | because of   | sababli   |
+| 771   | due to   | tufayli   |
+| 772   | lead to   | olib kelmoq   |
+| 773   | result in   | natijalanmoq   |
+| 774   | affect   | ta’sir qilmoq   |
+| 775   | influence   | ta’sir   |
+| 776   | achieve a goal   | maqsadga erishmoq   |
+| 777   | set a goal   | maqsad qo‘ymoq   |
+| 778   | intention   | niyat   |
+| 779   | motivated   | motivatsiyalangan   |
+| 780   | determined   | qat’iyatli   |
+E. Telefon va onlayn muloqot — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 781   | call   | qo‘ng‘iroq qilmoq   |
+| 782   | text   | xabar yozmoq   |
+| 783   | message   | xabar   |
+| 784   | reply   | javob bermoq   |
+| 785   | forward   | yubormoq/uzatmoq   |
+| 786   | attach   | ilova qilmoq   |
+| 787   | link   | havola   |
+| 788   | chat   | suhbatlashmoq   |
+| 789   | group chat   | guruh suhbati   |
+| 790   | notification   | bildirishnoma   |
+| 791   | mute   | ovozsiz qilmoq   |
+| 792   | log in   | tizimga kirmoq   |
+| 793   | log out   | tizimdan chiqmoq   |
+| 794   | sign up   | ro‘yxatdan o‘tmoq   |
+| 795   | username   | foydalanuvchi nomi   |
+| 796   | password   | parol   |
+| 797   | profile   | profil   |
+| 798   | share a post   | post ulashmoq   |
+| 799   | comment   | izoh qoldirmoq   |
+| 800   | online meeting   | onlayn uchrashuv   |
+A. Ish safari va sayohat — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 801   | business trip   | ish safari   |
+| 802   | conference   | konferensiya   |
+| 803   | attend a meeting   | yig‘ilishda qatnashmoq   |
+| 804   | itinerary   | sayohat rejasi   |
+| 805   | accommodation   | turar joy   |
+| 806   | book a hotel   | mehmonxona band qilmoq   |
+| 807   | check in   | ro‘yxatdan o‘tmoq   |
+| 808   | check out   | mehmonxonadan chiqmoq   |
+| 809   | receipts   | cheklar   |
+| 810   | expenses   | xarajatlar   |
+| 811   | expense report   | xarajatlar hisoboti   |
+| 812   | reimburse   | xarajatni qaytarmoq   |
+| 813   | colleague   | hamkasb   |
+| 814   | client   | mijoz   |
+| 815   | schedule   | jadval   |
+| 816   | on behalf of the company   | kompaniya nomidan   |
+| 817   | presentation   | taqdimot   |
+| 818   | negotiate   | muzokara qilmoq   |
+| 819   | follow up   | keyin bog‘lanmoq   |
+| 820   | keep in touch   | aloqada bo‘lmoq   |
+B. Xavf-xatar va ogohlantirish — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 821   | risk   | xavf   |
+| 822   | dangerous   | xavfli   |
+| 823   | safe   | xavfsiz   |
+| 824   | safety   | xavfsizlik   |
+| 825   | warn   | ogohlantirmoq   |
+| 826   | warning   | ogohlantirish   |
+| 827   | be careful   | ehtiyot bo‘lmoq   |
+| 828   | avoid danger   | xavfdan qochmoq   |
+| 829   | take a risk   | xavf tug‘dirmoq   |
+| 830   | emergency   | shoshilinch holat   |
+| 831   | accident   | baxtsiz hodisa   |
+| 832   | injury   | jarohat   |
+| 833   | damage   | zarar   |
+| 834   | prevent   | oldini olmoq   |
+| 835   | protect   | himoya qilmoq   |
+| 836   | rescue   | qutqarmoq   |
+| 837   | survive   | omon qolmoq   |
+| 838   | lose control   | nazoratni yo‘qotmoq   |
+| 839   | in danger   | xavf ostida   |
+| 840   | out of danger   | xavfdan chiqqan   |
+C. Qaror qabul qilish — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 841   | make a decision   | qaror qabul qilmoq   |
+| 842   | decide   | qaror qilmoq   |
+| 843   | choice   | tanlov   |
+| 844   | choose   | tanlamoq   |
+| 845   | option   | variant   |
+| 846   | alternative   | muqobil   |
+| 847   | pros and cons   | afzallik va kamchiliklar   |
+| 848   | weigh up   | o‘ylab ko‘rmoq   |
+| 849   | consider   | hisobga olmoq   |
+| 850   | think it over   | o‘ylab ko‘rmoq   |
+| 851   | make up your mind   | qaror qilmoq   |
+| 852   | hesitate   | ikkilanmoq   |
+| 853   | doubt   | shubha   |
+| 854   | be sure   | ishonch hosil qilmoq   |
+| 855   | regret   | afsuslanmoq   |
+| 856   | take responsibility   | mas’uliyatni olmoq   |
+| 857   | consequence   | oqibat   |
+| 858   | final decision   | yakuniy qaror   |
+| 859   | change your mind   | fikrini o‘zgartirmoq   |
+| 860   | agree on   | kelishmoq   |
+D. Odatlar — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 861   | habit   | odat   |
+| 862   | get used to   | ko‘nikmoq   |
+| 863   | used to   | avval … edi   |
+| 864   | usually   | odatda   |
+| 865   | always   | doim   |
+| 866   | often   | ko‘pincha   |
+| 867   | sometimes   | ba’zan   |
+| 868   | rarely   | kamdan-kam   |
+| 869   | never   | hech qachon   |
+| 870   | daily routine   | kundalik tartib   |
+| 871   | on a regular basis   | muntazam ravishda   |
+| 872   | break a habit   | odatni tashlamoq   |
+| 873   | develop a habit   | odat shakllantirmoq   |
+| 874   | keep a habit   | odatga amal qilmoq   |
+| 875   | addicted to   | qaram bo‘lmoq   |
+| 876   | tendency   | moyillik   |
+| 877   | willpower   | iroda   |
+| 878   | discipline   | tartib-intizom   |
+| 879   | consistent   | izchil   |
+| 880   | self-control   | o‘zini tuta bilish   |
+E. Kelajak rejalari — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 881   | plan   | reja   |
+| 882   | future   | kelajak   |
+| 883   | intention   | niyat   |
+| 884   | be going to   | …moqchi bo‘lmoq   |
+| 885   | will   | …adi (kelasi zamon)   |
+| 886   | hope to   | umid qilmoq   |
+| 887   | expect to   | kutmoq   |
+| 888   | look forward to   | intiqlik bilan kutmoq   |
+| 889   | ambition   | orzu-maqsad   |
+| 890   | dream   | orzu   |
+| 891   | career   | karyera   |
+| 892   | goal   | maqsad   |
+| 893   | short-term   | qisqa muddatli   |
+| 894   | long-term   | uzoq muddatli   |
+| 895   | achieve   | erishmoq   |
+| 896   | set a goal   | maqsad qo‘ymoq   |
+| 897   | work towards   | tomon harakat qilmoq   |
+| 898   | succeed   | muvaffaqiyat qozonmoq   |
+| 899   | fail   | muvaffaqiyatsizlikka uchramoq   |
+| 900   | opportunity   | imkoniyat   |
+A. Hissiyot kuchaytirgichlari — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 901   | very   | juda   |
+| 902   | really   | chindan ham   |
+| 903   | extremely   | nihoyatda   |
+| 904   | absolutely   | mutlaqo   |
+| 905   | completely   | butunlay   |
+| 906   | totally   | to‘liq   |
+| 907   | quite   | ancha   |
+| 908   | rather   | birmuncha   |
+| 909   | fairly   | nisbatan   |
+| 910   | slightly   | sal   |
+| 911   | a bit   | biroz   |
+| 912   | incredibly   | hayratlanarli darajada   |
+| 913   | surprisingly   | ajablanarli tarzda   |
+| 914   | unfortunately   | afsuski   |
+| 915   | luckily   | baxtimizga   |
+| 916   | hopefully   | umid qilamanki   |
+| 917   | honestly   | rostini aytsam   |
+| 918   | frankly   | ochig‘i   |
+| 919   | seriously   | jiddiy aytganda   |
+| 920   | obviously   | aniq-ravshan   |
+B. Tabiat va hayvonlar — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 921   | animal   | hayvon   |
+| 922   | wild animal   | yovvoyi hayvon   |
+| 923   | pet   | uy hayvoni   |
+| 924   | species   | tur   |
+| 925   | endangered   | yo‘qolib borayotgan   |
+| 926   | extinct   | qirilib ketgan   |
+| 927   | habitat   | yashash muhiti   |
+| 928   | environment   | atrof-muhit   |
+| 929   | ecosystem   | ekotizim   |
+| 930   | plant   | o‘simlik   |
+| 931   | tree   | daraxt   |
+| 932   | flower   | gul   |
+| 933   | grass   | o‘t   |
+| 934   | soil   | tuproq   |
+| 935   | insect   | hasharot   |
+| 936   | bird   | qush   |
+| 937   | fish   | baliq   |
+| 938   | protect wildlife   | yovvoyi tabiatni himoya qilmoq   |
+| 939   | national park   | milliy bog‘   |
+| 940   | pollution   | ifloslanish   |
+C. Shahar va transport — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 941   | traffic jam   | tirbandlik   |
+| 942   | rush hour   | tig‘iz vaqt   |
+| 943   | pedestrian   | piyoda   |
+| 944   | crosswalk   | piyodalar o‘tish joyi   |
+| 945   | sidewalk   | yo‘lka   |
+| 946   | intersection   | chorraha   |
+| 947   | roundabout   | aylanma yo‘l   |
+| 948   | highway   | katta yo‘l   |
+| 949   | lane   | yo‘l bo‘lagi   |
+| 950   | driver   | haydovchi   |
+| 951   | passenger   | yo‘lovchi   |
+| 952   | fare   | yo‘l haqi   |
+| 953   | taxi   | taksi   |
+| 954   | bus   | avtobus   |
+| 955   | train   | poyezd   |
+| 956   | subway   | metro   |
+| 957   | bicycle   | velosiped   |
+| 958   | motorcycle   | mototsikl   |
+| 959   | parking lot   | avtoturargoh   |
+| 960   | get on / get off   | chiqmoq / tushmoq   |
+D. Havo va sayr — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 961   | go for a walk   | sayrga chiqmoq   |
+| 962   | take a stroll   | sekin sayr qilmoq   |
+| 963   | go hiking   | piyoda yurishga chiqmoq   |
+| 964   | go sightseeing   | diqqatga sazovor joylarni ko‘rmoq   |
+| 965   | picnic   | piknik   |
+| 966   | sunny   | quyoshli   |
+| 967   | cloudy   | bulutli   |
+| 968   | rainy   | yomg‘irli   |
+| 969   | windy   | shamolli   |
+| 970   | chilly   | salqin   |
+| 971   | warm   | iliq   |
+| 972   | humid   | nam   |
+| 973   | freezing cold   | muzdek sovuq   |
+| 974   | boiling hot   | juda issiq   |
+| 975   | pleasant   | yoqimli   |
+| 976   | outdoors   | ochiq havoda   |
+| 977   | indoors   | ichkarida   |
+| 978   | fresh air   | toza havo   |
+| 979   | sunset   | quyosh botishi   |
+| 980   | sunrise   | quyosh chiqishi   |
+E. O‘z-o‘zini ifodalash — 20 ta
+| #   | Inglizcha   | O‘zbekcha   |
+| 981   | express yourself   | o‘zingizni ifoda etmoq   |
+| 982   | share your opinion   | fikringizni bildirmoq   |
+| 983   | speak your mind   | ochiq gapirmoq   |
+| 984   | tell the truth   | haqiqatni aytmoq   |
+| 985   | be honest   | halol bo‘lmoq   |
+| 986   | keep it simple   | sodda qilib aytmoq   |
+| 987   | make yourself clear   | aniq tushuntirmoq   |
+| 988   | put it differently   | boshqacha aytmoq   |
+| 989   | in other words   | boshqacha aytganda   |
+| 990   | what I mean is   | demoqchi bo‘lganim   |
+| 991   | to be honest   | rostini aytsam   |
+| 992   | if you ask me   | mendan so‘rasangiz   |
+| 993   | as I see it   | menimcha   |
+| 994   | from my point of view   | mening nuqtai nazarimdan   |
+| 995   | I’d say that   | aytishim mumkinki   |
+| 996   | let me explain   | tushuntirib beraman   |
+| 997   | that’s not what I meant   | men buni demoqchi emasdim   |
+| 998   | do you see what I mean?   | nima demoqchi ekanimni tushunyapsizmi?   |
+| 999   | I couldn’t agree more   | butunlay roziman   |
+| 1000   | that’s exactly how I feel   | aynan shunday his qilaman   |

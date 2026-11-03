@@ -1,0 +1,194 @@
+
+/* ==========================================================================
+   STRUCTURE SPLIT CARDS (1: So'z O'yinlari, 2: Flashcards)
+   ========================================================================== */
+
+.main-sections-split {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin: 2.5rem 0;
+}
+
+.main-split-card {
+  position: relative;
+  border-radius: var(--ios-radius-xl);
+  padding: 2.2rem 2rem;
+  background: linear-gradient(145deg, rgba(30, 16, 48, 0.75), rgba(12, 6, 22, 0.85));
+  border: 1px solid var(--ios-border);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.2rem;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+.main-split-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(217, 70, 239, 0.5);
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.6), 0 0 35px rgba(217, 70, 239, 0.25);
+}
+
+.split-card-glow {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(45px);
+  opacity: 0.45;
+}
+
+.split-card-glow.purple {
+  background: var(--accent-neon);
+}
+
+.split-card-glow.emerald {
+  background: #10b981;
+}
+
+.split-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.split-badge {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--accent-neon);
+  background: rgba(217, 70, 239, 0.15);
+  padding: 0.3rem 0.85rem;
+  border-radius: var(--ios-radius-full);
+  border: 1px solid rgba(217, 70, 239, 0.3);
+}
+
+.split-badge.emerald {
+  color: #4ade80;
+  background: rgba(34, 197, 94, 0.15);
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.split-icon {
+  font-size: 2.2rem;
+}
+
+.split-title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: #fff;
+  margin: 0;
+}
+
+.split-desc {
+  font-size: 0.95rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.split-card-footer {
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.split-play-link {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--accent-neon);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: transform 0.2s ease;
+}
+
+.split-play-link.emerald {
+  color: #4ade80;
+}
+
+.main-split-card:hover .split-play-link {
+  transform: translateX(4px);
+}
+
+/* Game View Header */
+.game-view-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem 1rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.game-view-header {
+  padding: 1.6rem 2rem;
+  border-radius: var(--ios-radius-lg);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.game-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.game-active-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3.5vw, 2rem);
+  font-weight: 800;
+  color: #fff;
+  margin: 0.2rem 0 0;
+  letter-spacing: -0.01em;
+}
+
+.back-to-home-btn {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--ios-border);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.55rem 1.1rem;
+  border-radius: var(--ios-radius-full);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.back-to-home-btn:hover {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: #ef4444;
+  color: #fff;
+}
+
+.game-marathon-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.marathon-prompt {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-dim);
+  letter-spacing: 0.06em;
+}
+
+.active-game-container {
+  width: 100%;
+}
