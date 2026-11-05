@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  
+  <!-- Apple iOS Standalone Web App Meta Tags -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Lexicon">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="assets/icon-512.png">
+
+  <!-- Android / Chromium Standalone Meta Tags -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#07030c">
+  <meta name="format-detection" content="telephone=no">
+
+  <!-- PWA Web App Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <title>SHADOW LEXICON // So'z O'yinlari & 1000 Flashcards</title>
+  <meta name="description" content="Inglizcha-O'zbekcha 10,000 ta so'zdan iborat noodatiy veb o'yin. 1000 ta interaktiv Flashcard + Tarjimasi va 8 ta o'yin rejimi.">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- Neon binafsha tutun simulyatsiyasi -->
+  <canvas id="smoke-canvas"></canvas>
+  <div class="ambient-smoke-bg"></div>
+  <!-- Qiz silueti orqa fon rasmi (Mysterious Lexicon Silhouette Backdrop) -->
+  <div class="app-silhouette-backdrop" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="brand-wrapper" onclick="window.app.switchTab('home')" style="cursor: pointer;">
+      <span class="brand-jp">シャドウ // 語彙</span>
+      <h1 class="brand-title">SHADOW LEXICON</h1>
+    </div>
+
+    <!-- Mobile Header Quick HUD (Faqat smartfonlar uchun ixcham panel) -->
+    <div class="header-mobile-hud">
+      <button class="user-level-btn mobile-hud-pill ios-button" id="mobile-user-level-pill" onclick="window.gamification && window.gamification.openAchievementsModal()" title="Profil va Yutuqlar">
+        <span class="lvl-icon">🌱</span>
+        <span class="lvl-text">Lvl 1</span>
+      </button>
+      <button class="header-action-btn ios-button" id="theme-toggle-btn-mobile" onclick="window.app && window.app.toggleTheme()" title="Yorug'/Qorong'u rejim">🌓</button>
+      <button class="header-action-btn ios-button" onclick="window.app && window.app.showDailySummaryCard()" title="Bugungi Natija & Faollik">📊</button>
+      <button class="header-action-btn ios-button" id="mobile-audio-btn" title="Ovoz">🔊</button>
+      <button class="header-action-btn ios-button" onclick="window.favoritesExport && window.favoritesExport.openModal()" title="Saralangan so'zlar">⭐</button>
+    </div>
+
+    <!-- Desktop Navigation Links -->
+    <nav class="nav-links">
+      <button class="nav-btn active ios-button" data-nav-target="home">🏠 Bosh sahifa</button>
+      <button class="nav-btn ios-button" data-nav-target="games">🎮 So'z O'yinlari</button>
+      <button class="nav-btn ios-button" data-nav-target="destination">📘 B2 Quiz</button>
+      <button class="nav-btn ios-button" data-nav-target="shadowing">🎬 Shadowing 1000</button>
+      <button class="nav-btn ios-button" data-nav-target="quest">🏰 Labirint</button>
+      <button class="nav-btn ios-button" data-nav-target="flashcards">🎴 Flashkardlar</button>
+      <button class="nav-btn ios-button" data-nav-target="dictionary">📖 10K Lug'at</button>
+      <button class="nav-btn ios-button" onclick="window.app && window.app.showDailySummaryCard()">📊 Bugungi Natija</button>
+      <button class="nav-btn ios-button" onclick="window.gamification && window.gamification.openAchievementsModal()">🏆 Yutuqlar</button>
+      <button class="theme-toggle-btn ios-button" id="theme-toggle-btn-desktop" onclick="window.app && window.app.toggleTheme()" title="Mavzuni almashtirish">🌓 Rejim</button>
+      
+      <!-- User Level & XP Pill -->
+      <button class="user-level-btn ios-button" id="user-level-pill" onclick="window.gamification && window.gamification.openAchievementsModal()" title="Profil va Yutuqlarni ko'rish">
+        <span class="lvl-icon">🌱</span>
+        <span class="lvl-text">Lvl 1 • Boshlovchi</span>
+      </button>
+
+      <span class="stat-active-combo" id="stat-active-combo" style="display: none;"></span>
+      <button class="audio-btn ios-button" id="audio-toggle-btn">🔊 SFX ON</button>
+    </nav>
+  </header>
+
+  <!-- Asosiy ko'rinishlar -->
+  <main class="main-viewport">
+
+    <!-- ==========================================
+         VIEW 1: HOME & LANDING PAGE
+         ========================================== -->
+    <section id="home-view" class="tab-view active-view">
+      
+      <!-- Editorial Hero Grid (Siluet Qiz) -->
+      <div class="hero-editorial-grid">
+        <div class="hero-editorial-content">
+          <div class="hero-meta-date">
+            <span>NOV 03 — ACTIVE SEASON</span>
+            <span>10,000 WORDS VAULT</span>
+          </div>
+
+          <h2 class="hero-big-title">
+            LEXICAL
+            <span>ADDICTION</span>
+          </h2>
+
+          <p class="hero-description">
+            Quruq yodlashdan charchadingizmi? Noodatiy vizual piksel detektiv, kontekstli matn shifri,
+            tezkor juftlik blits, vaqtli bomba poygasi va 1000 ta interaktiv 3D Flashcard bilan ingliz tilini zabt eting.
+          </p>
+
+          <div class="hero-cta-group">
+            <button class="cta-primary ios-button" onclick="window.app.switchTab('games')">
+              <span>🎮 SO'Z O'YINLARINI BOSHLASH</span>
+              <span class="cta-arrow">→</span>
+            </button>
+            <button class="cta-secondary ios-button" onclick="window.app.switchTab('destination')">
+              <span>📘 DESTINATION B2 QUIZ</span>
+            </button>
+            <button class="cta-secondary ios-button" onclick="window.app.switchTab('shadowing')">
+              <span>🎬 1000 KINO SHADOWING</span>
+            </button>
+            <button class="cta-secondary ios-button" onclick="window.app.switchTab('flashcards')">
+              <span>🎴 1000 FLASHCARDLAR</span>
+            </button>
+          </div>
+
+          <!-- Marathon Selector Bar -->
+          <div class="marathon-selection-bar">
+            <span class="marathon-label">⚡ MARAFON REJIMI:</span>
+            <div class="marathon-buttons-group">
+              <button class="marathon-pill-btn active ios-button" data-rounds="30">30 So'z</button>
+              <button class="marathon-pill-btn ios-button" data-rounds="50">50 So'z</button>
+              <button class="marathon-pill-btn ios-button" data-rounds="100">100 So'z 👑</button>
+            </div>
+          </div>
+
+          <!-- Dynamic Live Categories Carousel -->
+          <div class="category-carousel-wrapper">
+            <div class="cat-label-row">
+              <span class="cat-section-title">📂 DINAMIK BO'LIMLAR (AUTO-SHUFFLE)</span>
+              <span class="cat-active-pill" id="active-cat-name">🔀 Aralash (Auto-Shuffle)</span>
+            </div>
+            <div class="category-chips-scroll" id="category-chips">
+              <!-- JS orqali to'ldiriladi -->
+            </div>
+          </div>
+        </div>
+
+        <!-- O'ng tomondagi Asosiy Qiz Silueti Tasviri -->
+        <div class="hero-editorial-visual">
+          <div class="hero-image-frame">
+            <img src="assets/hero_silhouette.jpg" alt="Mysterious Lexicon Silhouette" class="hero-silhouette-img">
+            <div class="image-gradient-overlay"></div>
+            
+            <div class="hero-floating-badge badge-top-right">
+              <span class="badge-dot"></span>
+              <span class="badge-text">10,000+ RANDOM WORDS</span>
+            </div>
+
+            <div class="hero-floating-badge badge-bottom-left">
+              <span class="badge-number">1,000</span>
+              <span class="badge-sub">INTERAKTIV FLASHCARD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Asosiy Bo'limga O'tish Kartalari (Structure 1 & Structure 2) -->
+      <div class="main-sections-split">
+        
+        <!-- Bo'lim 1: So'z O'yinlari -->
+        <div class="main-split-card ios-glass-panel" onclick="window.app.switchTab('games')">
+          <div class="split-card-glow purple"></div>
+          <div class="split-card-header">
+            <span class="split-badge">STRUKTURA 1</span>
+            <span class="split-icon">🎮</span>
+          </div>
+          <h3 class="split-title">SO'Z O'YINLARI</h3>
+          <p class="split-desc">9 ta unikal va adrenalinli mexanika: Piksel Detektiv, Matn Shifri, Juftlik Blitz, Spelling Bomba, Gap Konstruktori, Wordle, Audio, Matritsa va Xatolar Sandig'i. 30, 50, 100 talik marafon.</p>
+          <div class="split-card-footer">
+            <span class="split-play-link">O'yinlarga o'tish →</span>
+          </div>
+        </div>
+
+        <!-- Bo'lim 2: Flashcards -->
+        <div class="main-split-card ios-glass-panel" onclick="window.app.switchTab('flashcards')">
+          <div class="split-card-glow emerald"></div>
+          <div class="split-card-header">
+            <span class="split-badge emerald">STRUKTURA 2</span>
+            <span class="split-icon">🎴</span>
+          </div>
+          <h3 class="split-title">FLASHKARDLAR</h3>
+          <p class="split-desc">1,000 ta eng muhim inglizcha so'z, jonli misol gaplar, audio talaffuz va kartani aylantirganda (flip) uning to'liq o'zbekcha tarjimasi chiqadi.</p>
+          <div class="split-card-footer">
+            <span class="split-play-link emerald">Flashcardlarni ochish →</span>
+          </div>
+        </div>
+
+        <!-- Bo'lim 3: RPG Quest (Qorong'u Labirint) -->
+        <div class="main-split-card ios-glass-panel" onclick="window.app.switchTab('quest')">
+          <div class="split-card-glow gold"></div>
+          <div class="split-card-header">
+            <span class="split-badge gold">RPG SARGUZASHT</span>
+            <span class="split-icon">🏰</span>
+          </div>
+          <h3 class="split-title">QORONG'U LABIRINT</h3>
+          <p class="split-desc">15 ta xona, 3 ta qudratli Boss va qadimiy yodgorliklar. Qadimgi kutubxona, Kiber shahar va Qora qasrdan o'tib, ingliz tilini zabt eting!</p>
+          <div class="split-card-footer">
+            <span class="split-play-link gold">Labirintga kirish →</span>
+          </div>
+        </div>
+
+        <!-- Bo'lim 4: 1000 Kino Shadowing & Talaffuz Studio -->
+        <div class="main-split-card ios-glass-panel" onclick="window.app.switchTab('shadowing')">
+          <div class="split-card-glow crimson"></div>
+          <div class="split-card-header">
+            <span class="split-badge crimson">OVOZ TAHLILI</span>
+            <span class="split-icon">🎬</span>
+          </div>
+          <h3 class="split-title">1000 KINO SHADOWING</h3>
+          <p class="split-desc">AFI Top 100 va Gollivud kinolaridan 1000 ta mashhur ibora. Web Speech API (STT), Levenshtein masofasi bo'yicha aniq ball, xatolik diff-vizualizatsiyasi va audio taqqoslash.</p>
+          <div class="split-card-footer">
+            <span class="split-play-link crimson">Studioga kirish →</span>
+          </div>
+        </div>
+
+        <!-- Bo'lim 5: Destination B2 Testlari -->
+        <div class="main-split-card ios-glass-panel" onclick="window.app.switchTab('destination')">
+          <div class="split-card-glow ocean"></div>
+          <div class="split-card-header">
+            <span class="split-badge ocean">CAMBRIDGE B2</span>
+            <span class="split-icon">📘</span>
+          </div>
+          <h3 class="split-title">DESTINATION B2 QUIZ</h3>
+          <p class="split-desc">10, 20 yoki 30 talik test varag'i. Barcha savollarni bir sahifada belgilab, yakuniy bitta tugma orqali tekshiring. To'g'rilarida qisqa tahlil, xatolarda esa batafsil grammatik qoida beriladi!</p>
+          <div class="split-card-footer">
+            <span class="split-play-link ocean">Testni boshlash →</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 9 ta O'yin Mexanikasi Kartalari -->
+      <div class="modes-grid-section">
+        <div class="section-title-wrap">
+          <span class="section-badge">INTERACTIVE MECHANICS</span>
+          <h3 class="section-heading">12 TA NOODATIY O'YIN DARAJASI</h3>
+        </div>
+
+        <div class="game-modes-grid">
+          
+          <!-- Game 1: Piksel Detektiv -->
+          <div class="mode-card-interactive ios-glass-panel" data-game="pixel" onclick="window.app.switchTab('games', 'pixel')">
+            <div class="mode-card-accent purple"></div>
+            <div class="mode-header">
+              <span class="mode-tag">VIZUAL XOTIRA</span>
+              <span class="mode-icon">🔍</span>
+            </div>
+            <h4 class="mode-title">PIKSEL DETEKTIV</h4>
+            <p class="mode-desc">Rasm piksellangan va xira boshlanadi. Har 2 soniyada tiniqlashadi. Qanchalik tez topsangiz, shuncha ko'p ochko!</p>
+            <div class="mode-footer">
+              <span class="mode-stat">Canvas Blur FX</span>
+              <button class="mode-start-btn ios-button" onclick="event.stopPropagation(); window.app.switchTab('games', 'pixel')">O'ynash <span>→</span></button>
+            </div>
+          </div>
+
+          <!-- Game 2: Matn Shifri -->
+          <div class="mode-card-interactive ios-glass-panel" data-game="cipher" onclick="window.app.switchTab('games', 'cipher')">
+            <div class="mode-card-accent cyan"></div>
+            <div class="mode-header">
+              <span class="mode-tag">KONTEKST & SINONIM</span>
+              <span class="mode-icon">🧩</span>
+            </div>
+            <h4 class="mode-title">MATN SHIFRI</h4>
+            <p class="mode-desc">Jonli gapdagi [ ? ] bo'sh joyni sinonim va aralash harf katakchalari yordamida to'g'ri joylashtiring.</p>
+            <div class="mode-footer">
+              <span class="mode-stat">3X Xotira kuchi</span>
+              <button class="mode-start-btn ios-button" onclick="event.stopPropagation(); window.app.switchTab('games', 'cipher')">O'ynash <span>→</span></button>
+            </div>
+          </div>
+
+          <!-- Game 3: Juftlik Blitz -->
+          <div class="mode-card-interactive ios-glass-panel" data-game="blitz" onclick="window.app.switchTab('games', 'blitz')">
+            <div class="mode-card-accent pink"></div>
+            <div class="mode-header">
+              <span class="mode-tag">TEZKOR REAKSIYA</span>
+              <span class="mode-icon">⚡</span>
+            </div>
+            <h4 class="mode-title">JUFTLIK BLITZ</h4>
+            <p class="mode-desc">Suzuvchi neon kartalar orasidan inglizcha so'z va uning tarjimasini tezkor moslang. Juftliklar yo'qoladi!</p>
+            <div class="mode-footer">
+              <span class="mode-stat">Speed & Match</span>
+              <button class="mode-start-btn ios-button" onclick="event.stopPropagation(); window.app.switchTab('games', 'blitz')">O'ynash <span>→</span></button>
+            </div>
+          </div>
+
+          <!-- Game 4: Spelling Bomb -->
+          <div class="mode-card-interactive ios-glass-panel" data-game="bomb" onclick="window.app.switchTab('games', 'bomb')">
+            <div class="mode-card-accent red"></div>
+            <div class="mode-header">
+              <span class="mode-tag">IMLO VA VAQT</span>
+              <span class="mode-icon">💣</span>
+            </div>
+            <h4 class="mode-title">SPELLING BOMB</h4>
+            <p class="mode-desc">10 soniyalik dinamik taymer. Harflarni ketma-ket bosing. Xato qilsangiz, taymerdan 2 soniya ketadi!</p>
+            <div class="mode-footer">
+              <span class="mode-stat">Adrenalin Poygasi</span>
+              <button class="mode-start-btn ios-button" onclick="event.stopPropagation(); window.app.switchTab('games', 'bomb')">O'ynash <span>→</span></button>
+            </div>
+          </div>
+
+          <!-- Game 5: Gap Konstruktori -->
+          <div class="mode-card-interactive ios-glass-panel" data-game="sentence" onclick="window.app.switchTab('games', 'sentence')">
+            <div class="mode-card-accent green"></div>
+            <div class="mode-header">
+              <span class="mode-tag">GRAMMATIKA & TALAFFUZ</span>
+              <span class="mode-icon">🏗️</span>
+            </div>
+            <h4 class="mode-title">GAP KONSTRUKTORI</h4>
+            <p class="mode-desc">O'zbekcha gap beriladi. Inglizcha so'z bloklarini tartib bilan terib to'liq gap yasang va audio talaffuzni eshiting!</p>
+            <div class="mode-footer">
+              <span class="mode-stat">Sentence Architect</span>
+              <button class="mode-start-btn ios-button" onclick="event.stopPropagation(); window.app.switchTab('games', 'sentence')">O'ynash <span>→</span></button>
+            </div>
+          </div>
+
+          <!-- Game 6: Lug'at Wordle -->
+          <div class="mode-card-interactive ios-glass-panel" data-game="wordle" onclick="window.app.switchTab('games', 'wordle')">
+            <div class="mode-card-accent green"></div>
+            <div class="mode-header">
+              <span class="mode-tag">5 HARFLI KUNLIK SIR</span>
+              <span class="mode-icon">🟩</span>
+            </div>
+            <h4 class="mode-title">LUG'AT WORDLE</h4>
+            <p class="mode-desc">Sirli 5 harfli inglizcha so'zni 6 urinishda toping. Yashil va sariq ranglar yordamida mantiqiy fikrlang!</p>
+            <div class="mode-footer">
+              <span class="mode-stat">Logika & Imlo</span>
+              <button class="mode-start-btn ios-button" onclick="event.stopPropagation(); window.app.switchTab('games', 'wordle')">O'ynash <span>→</span></button>
+            </div>
+          </div>
+
+          <!-- Game 7: Audio Detektiv -->
+          <div class="mode-card-interactive ios-glass-panel" data-game="audio" onclick="window.app.switchTab('games', 'audio')">
+            <div class="mode-card-accent cyan"></div>
+            <div class="mode-header">
+              <span class="mode-tag">LISTENING QUIZ</span>
+              <span class="mode-icon">🎧</span>
+            </div>
+            <h4 class="mode-title">AUDIO DETEKTIV</h4>
+            <p class="mode-desc">So'z matni yashirin. Faqat talaffuzni eshiting va 4 ta o'zbekcha variantdan to'g'risini toping!</p>
+            <div class="mode-footer">
+              <span class="mode-stat">Eshitish Qobiliyati</span>
+              <button class="mode-start-btn ios-button" onclick="event.stopPropagation(); window.app.switchTab('games', 'audio')">O'ynash <span>→</span></button>
+            </div>
+          </div>
+
+          <!-- Game 8: Xatolar Sandig'i -->
+          <div class="mode-card-interactive ios-glass-panel" data-game="mistakes" onclick="window.app.switchTab('games', 'mistakes')">
+            <div class="mode-card-accent purple"></div>
+            <div class="mode-header">
+              <span class="mode-tag">REVANCH ARENASI</span>
+              <span class="mode-icon">⚔️</span>
+            </div>
+            <h4 class="mode-title">XATOLAR SANDIG'I</h4>
+            <p class="mode-desc">O'yinlarda adashgan so'zlaringiz shu yerga to'planadi. Qayta o'ynab, ularni 100% o'zlashtirib oling!</p>
+            <div class="mode-footer">
+              <span class="mode-stat">Mustahkamlash</span>
+              <button class="mode-start-btn ios-button" onclick="event.stopPropagation(); window.app.switchTab('games', 'mistakes')">Revansh <span>→</span></button>
+            </div>
+          </div>
+
+          <!-- Game 9: Word Search Matrix -->
+          <div class="mode-card-interactive ios-glass-panel" data-game="wordsearch" onclick="window.app.switchTab('games', 'wordsearch')">
+            <div class="mode-card-accent cyan"></div>
+            <div class="mode-header">
+              <span class="mode-tag">SO'Z QIDIRISH TO'RI</span>
+              <span class="mode-icon">🧩</span>
+            </div>
+            <h4 class="mode-title">WORD SEARCH MATRIX</h4>
+            <p class="mode-desc">10x10 harflar to'ridan yashiringan inglizcha so'zlarni barmog'ingiz bilan chizib toping. O'zbekcha ma'nolar orqali mantiqiy fikrlang!</p>
+            <div class="mode-footer">
+              <span class="mode-stat">10x10 Matritsa</span>
+              <button class="mode-start-btn ios-button" onclick="event.stopPropagation(); window.app.switchTab('games', 'wordsearch')">To'rni Ochish <span>→</span></button>
+            </div>
+          </div>
+
+          <!-- Game 10: Context Fill (Kripto-gaplar & Mashhur Iqtiboslar) -->
+          <div class="mode-card-interactive ios-glass-panel" data-game="contextfill" onclick="window.app.switchTab('games', 'contextfill')">
+            <div class="mode-card-accent purple"></div>
+            <div class="mode-header">
+              <span class="mode-tag">FILM IQTIBOSLARI & MEMLAR</span>
+              <span class="mode-icon">🎬</span>
+            </div>
+            <h4 class="mode-title">CONTEXT FILL</h4>
+            <p class="mode-desc">So'z alohida emas, mashhur film iqtibosi yoki kutilmagan qiziqarli gap ichidagi bitta bo'sh joy bilan beriladi. Kontekstdan toping!</p>
+            <div class="mode-footer">
+              <span class="mode-stat">Kripto-gaplar</span>
+              <button class="mode-start-btn ios-button" onclick="event.stopPropagation(); window.app.switchTab('games', 'contextfill')">Iqtibosni Topish <span>→</span></button>
+            </div>
+          </div>
+
+          <!-- Game 11: Eshitib Yozish (Dictation Studio) -->
+          <div class="mode-card-interactive ios-glass-panel" data-game="dictation" onclick="window.app.switchTab('games', 'dictation')">
+            <div class="mode-card-accent green"></div>
+            <div class="mode-header">
+              <span class="mode-tag">LISTENING & SPELLING</span>
+              <span class="mode-icon">🎧</span>
+            </div>
+            <h4 class="mode-title">ESHITIB YOZISH</h4>
+            <p class="mode-desc">Ovoz eshitiladi. So'zning to'liq va to'g'ri inglizcha imlosini yozing. Sekinlashtirilgan audio va maslahat mavjud!</p>
+            <div class="mode-footer">
+              <span class="mode-stat">Diktant Studiyasi</span>
+              <button class="mode-start-btn ios-button" onclick="event.stopPropagation(); window.app.switchTab('games', 'dictation')">Eshitish <span>→</span></button>
+            </div>
+          </div>
+
+          <!-- Game 12: Ildizdosh Quiz (Root Families) -->
+          <div class="mode-card-interactive ios-glass-panel" data-game="rootquiz" onclick="window.app.switchTab('games', 'rootquiz')">
+            <div class="mode-card-accent pink"></div>
+            <div class="mode-header">
+              <span class="mode-tag">MORFOLOGIYA VA NOZIKLIK</span>
+              <span class="mode-icon">🌿</span>
+            </div>
+            <h4 class="mode-title">ILDIZDOSH QUIZ</h4>
+            <p class="mode-desc">4 ta variant, 1 ta to'g'ri. Xato variantlar aynan bir xil o'zak va ildizdan olingan (Fe'l, Ot, Sifat, Ravish). Nozik farqlarni o'rganing!</p>
+            <div class="mode-footer">
+              <span class="mode-stat">4 Ildizdosh Variant</span>
+              <button class="mode-start-btn ios-button" onclick="event.stopPropagation(); window.app.switchTab('games', 'rootquiz')">Quizni Boshlash <span>→</span></button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Pastki Statistik Dashboard -->
+      <div class="stats-overview-strip ios-glass-panel">
+        <div class="stat-unit">
+          <span class="stat-num" id="stat-words-learned">10,000</span>
+          <span class="stat-sub">Lug'at Bazasi So'zlari</span>
+        </div>
+        <div class="stat-unit">
+          <span class="stat-num" id="stat-total-score">0</span>
+          <span class="stat-sub">Sizning Ballingiz</span>
+        </div>
+        <div class="stat-unit">
+          <span class="stat-num" id="stat-day-streak">1 kun</span>
+          <span class="stat-sub">Faollik Seriyasi 🔥</span>
+        </div>
+        <div class="stat-unit">
+          <span class="stat-num" id="stat-mistakes-count">0</span>
+          <span class="stat-sub">Xatolar Sandig'i ⚔️</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ==========================================
+         VIEW 2: SO'Z O'YINLARI (STRUCTURE 1)
+         ========================================== -->
+    <section id="games-view" class="tab-view">
+      <div class="game-view-wrapper">
+        
+        <!-- O'yin Yuqori Paneli -->
+        <div class="game-view-header ios-glass-panel">
+          <div class="game-header-top">
+            <div class="game-header-info">
+              <span class="game-badge" id="current-game-badge">🎮 SO'Z O'YINLARI</span>
+              <h2 class="game-active-title" id="current-game-title">PIKSEL DETEKTIV</h2>
+            </div>
+            <button class="back-to-home-btn ios-button" onclick="window.app.switchTab('home')">
+              ✕ Chiqish
+            </button>
+          </div>
+
+          <!-- O'yinlar o'rtasida tezkor almashish tugmalari -->
+          <div class="games-hub-subnav" id="games-hub-subnav">
+            <button class="game-subnav-btn active ios-button" onclick="window.app.launchGame('pixel')">🔍 Piksel Detektiv</button>
+            <button class="game-subnav-btn ios-button" onclick="window.app.launchGame('cipher')">🧩 Matn Shifri</button>
+            <button class="game-subnav-btn ios-button" onclick="window.app.launchGame('blitz')">⚡ Juftlik Blitz</button>
+            <button class="game-subnav-btn ios-button" onclick="window.app.launchGame('bomb')">💣 Spelling Bomb</button>
+            <button class="game-subnav-btn ios-button" onclick="window.app.launchGame('sentence')">🏗️ Gap Konstruktori</button>
+            <button class="game-subnav-btn ios-button" onclick="window.app.launchGame('wordle')">🟩 Wordle</button>
+            <button class="game-subnav-btn ios-button" onclick="window.app.launchGame('audio')">🎧 Audio Detektiv</button>
+            <button class="game-subnav-btn ios-button" onclick="window.app.launchGame('wordsearch')">🧩 So'z Qidirish To'ri</button>
+            <button class="game-subnav-btn ios-button" onclick="window.app.launchGame('mistakes')">⚔️ Xatolar <span class="subnav-mistakes-pill" id="subnav-mistakes-badge">0</span></button>
+            <button class="game-subnav-btn ios-button" onclick="window.app.launchGame('contextfill')">🎬 Kripto-gaplar</button>
+            <button class="game-subnav-btn ios-button" onclick="window.app.launchGame('dictation')">🎧 Eshitib Yozish</button>
+            <button class="game-subnav-btn ios-button" onclick="window.app.launchGame('rootquiz')">🌿 Ildizdosh Quiz</button>
+          </div>
+
+          <!-- Marathon Pill Selector (30, 50, 100) -->
+          <div class="game-marathon-bar">
+            <span class="marathon-prompt">MAQSAD:</span>
+            <div class="marathon-buttons-group">
+              <button class="marathon-pill-btn active ios-button" data-rounds="30">30 So'z</button>
+              <button class="marathon-pill-btn ios-button" data-rounds="50">50 So'z</button>
+              <button class="marathon-pill-btn ios-button" data-rounds="100">100 So'z 👑</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dinamik yuklanuvchi o'yin konteyneri -->
+        <div id="active-game-container" class="active-game-container">
+          <!-- JS orqali o'yin interfeysi joylanadi -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 3: FLASHCARDS (STRUCTURE 2)
+         1,000 Cards + Interactive Tarjimasi Reveal
+         ========================================== -->
+    <section id="flashcards-view" class="tab-view">
+      <!-- FlashcardsEngine orqali to'liq render qilinadi -->
+    </section>
+
+    <!-- ==========================================
+         VIEW 4: 10K LUG'AT QIDIRUV VA RO'YXAT
+         ========================================== -->
+    <section id="dictionary-view" class="tab-view">
+      <div class="dict-view-wrapper">
+        <div class="dict-header-panel ios-glass-panel">
+          <h2 class="dict-title">📖 10,000 SO'ZLIK LUG'AT VA KONTEKST</h2>
+          <p class="dict-subtitle">Barcha so'zlar audio talaffuzi va misol gaplari bilan birgalikda.</p>
+          <div class="dict-search-box">
+            <input type="text" id="dict-search-input" class="ios-input-field" placeholder="So'z yoki tarjimani qidiring (masalan: achieve, habit, traffic)...">
+          </div>
+          <div class="dict-alphabet-bar" id="dict-alphabet-bar">
+            <!-- A dan Z gacha alifbo harflari -->
+          </div>
+          <div class="dict-stats-summary" id="dict-stats-summary">
+            <!-- 10,000 ta so'z statistikasi -->
+          </div>
+          <div class="dict-actions-bar">
+            <div class="dict-action-btn-group">
+              <button id="dict-starred-toggle-btn" class="dict-action-pill ios-button" onclick="window.favoritesExport && window.favoritesExport.toggleDictStarredFilter()">
+                ⭐ Saralanganlar (<span class="starred-count-badge">0</span>)
+              </button>
+            </div>
+            <button class="dict-action-pill dict-export-btn ios-button" onclick="window.favoritesExport && window.favoritesExport.openExportModal('starred')">
+              📂 Eksport Qilish (PDF / Anki)
+            </button>
+          </div>
+        </div>
+
+        <div class="dictionary-grid" id="dictionary-grid">
+          <!-- Dinamik ravishda lug'at kartalari joylanadi -->
+        </div>
+
+        <div class="dict-load-more-wrap" id="dict-load-more-wrap">
+          <button id="dict-load-more-btn" class="ios-action-button" onclick="window.app.loadMoreDictionary()">
+            Ko'proq ko'rsatish (+60 ta so'z) ⬇️
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 5: RPG QUEST (QORONG'U LABIRINT)
+         ========================================== -->
+    <section id="quest-view" class="tab-view">
+      <div id="quest-view-container"></div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 6: 1000 KINO SHADOWING STUDIO (STT & AUDIO)
+         ========================================== -->
+    <section id="shadowing-view" class="tab-view">
+      <div class="shadow-studio-wrapper">
+        
+        <!-- Header & Stats Banner -->
+        <div class="shadow-header-panel ios-glass-panel">
+          <div class="shadow-title-row">
+            <div>
+              <h2 class="shadow-main-title">🎬 1000 KINO SHADOWING STUDIO</h2>
+              <p class="shadow-subtitle">AFI Top 100, IMDb va Gollivud durdonalaridagi eng mashhur iboralar talaffuz tahlili bilan.</p>
+            </div>
+            <div class="shadow-progress-summary">
+              <span id="shadow-learned-count"><strong>0</strong> / 1000 mashq qilindi</span>
+              <div class="shadow-progress-bar-bg">
+                <div class="shadow-progress-bar-fill" id="shadow-progress-bar-fill" style="width: 0%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls & Filter Toolbar -->
+          <div class="shadow-toolbar">
+            <div class="shadow-search-box">
+              <input type="text" id="shadow-search-input" class="ios-input-field" 
+                     placeholder="Qidiruv (inglizcha, o'zbekcha yoki film nomi)..." 
+                     oninput="window.shadowingStudio.setSearchQuery(this.value)">
+            </div>
+            <div class="shadow-filters-row">
+              <div class="shadow-levels-pills">
+                <button class="shadow-level-btn active ios-button" data-level="ALL" onclick="window.shadowingStudio.setLevelFilter('ALL')">Barchasi</button>
+                <button class="shadow-level-btn ios-button" data-level="A1" onclick="window.shadowingStudio.setLevelFilter('A1')">A1</button>
+                <button class="shadow-level-btn ios-button" data-level="A2" onclick="window.shadowingStudio.setLevelFilter('A2')">A2</button>
+                <button class="shadow-level-btn ios-button" data-level="B1" onclick="window.shadowingStudio.setLevelFilter('B1')">B1</button>
+                <button class="shadow-level-btn ios-button" data-level="B2" onclick="window.shadowingStudio.setLevelFilter('B2')">B2</button>
+                <button class="shadow-level-btn ios-button" data-level="C1" onclick="window.shadowingStudio.setLevelFilter('C1')">C1</button>
+              </div>
+
+              <select id="shadow-movie-select" class="shadow-movie-dropdown ios-input-field" onchange="window.shadowingStudio.setMovieFilter(this.value)">
+                <option value="ALL">🎬 Barcha Filmlar</option>
+              </select>
+
+              <button id="shadow-only-bookmarks-btn" class="shadow-filter-toggle-btn ios-button" onclick="window.shadowingStudio.toggleBookmarksOnly()" title="Faqat saqlangan iboralarni ko'rsatish">
+                ⭐ Saqlanganlar
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Studio Main Interactive Card -->
+        <div class="shadow-stage-area">
+          <div id="shadow-loading-indicator" class="shadow-loading-indicator" style="display: none;">
+            <div class="ios-spinner"></div>
+            <span>1000 ta kino iborasi yuklanmoqda...</span>
+          </div>
+
+          <div id="shadowing-quote-stage">
+            <!-- Rendered by window.shadowingStudio.renderCurrentQuote() -->
+          </div>
+
+          <!-- Studio Action Console -->
+          <div class="shadow-console-panel ios-glass-panel">
+            <!-- Audio Speed Controls -->
+            <div class="shadow-speed-row">
+              <span class="speed-label">⚡ Audio Tezligi:</span>
+              <div class="speed-pills">
+                <button class="speed-pill-btn ios-button" data-speed="0.5" onclick="window.shadowingStudio.setPlaybackSpeed(0.5)">0.5x</button>
+                <button class="speed-pill-btn ios-button" data-speed="0.75" onclick="window.shadowingStudio.setPlaybackSpeed(0.75)">0.75x</button>
+                <button class="speed-pill-btn active ios-button" data-speed="1.0" onclick="window.shadowingStudio.setPlaybackSpeed(1.0)">1.0x</button>
+                <button class="speed-pill-btn ios-button" data-speed="1.25" onclick="window.shadowingStudio.setPlaybackSpeed(1.25)">1.25x</button>
+                <button class="speed-pill-btn ios-button" data-speed="1.5" onclick="window.shadowingStudio.setPlaybackSpeed(1.5)">1.5x</button>
+              </div>
+              <input type="range" id="shadow-speed-slider" class="shadow-speed-slider" min="0.5" max="1.5" step="0.05" value="1.0" oninput="window.shadowingStudio.setPlaybackSpeed(this.value)">
+              <span id="shadow-speed-val" class="speed-val-display">1.00x</span>
+            </div>
+
+            <!-- Main Primary Action Buttons -->
+            <div class="shadow-main-actions">
+              <button class="shadow-btn-play ios-button" id="shadow-play-btn" onclick="window.shadowingStudio.playOriginalSpeech()">
+                🔊 ORIGINALNI TINGLASH
+              </button>
+              
+              <button class="shadow-btn-record ios-button" id="shadow-record-btn" onclick="window.shadowingStudio.toggleRecording()">
+                🎙️ OVOZNI YOZISH / GAPIRISH
+              </button>
+            </div>
+
+            <!-- Waveform pulse while recording -->
+            <div class="shadow-mic-pulse" id="shadow-mic-pulse" style="display: none;">
+              <span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span><span class="bar"></span>
+              <span class="mic-status-text">Ovozingiz tinglanmoqda... Gapiring!</span>
+            </div>
+
+            <!-- User Audio Player & Dual Comparison -->
+            <div id="user-audio-player-wrap" style="display: none;"></div>
+
+            <!-- Visual Word-by-Word Diff Card -->
+            <div id="shadowing-diff-card" class="shadowing-diff-card" style="display: none;"></div>
+
+            <!-- Quote Navigation Bar -->
+            <div class="shadow-nav-row">
+              <button class="shadow-nav-btn ios-button" onclick="window.shadowingStudio.prevQuote()">
+                ⏮️ Oldingi
+              </button>
+              <button class="shadow-nav-btn random-btn ios-button" onclick="window.shadowingStudio.randomQuote()">
+                🎲 Tasodifiy (Random)
+              </button>
+              <button class="shadow-nav-btn ios-button" onclick="window.shadowingStudio.nextQuote()">
+                Keyingi ⏭️
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1000 Quotes Playlist & Library Drawer -->
+        <div class="shadow-playlist-panel ios-glass-panel">
+          <div class="playlist-header-row">
+            <h3 class="playlist-title">📚 Kino Iboralari Kutubxonasi (<span id="shadow-results-count">1000 ta ibora</span>)</h3>
+          </div>
+          <div class="shadow-quotes-list" id="shadowing-quotes-list">
+            <!-- Paginated quote list elements -->
+          </div>
+          <button id="shadow-load-more-btn" class="ios-action-button shadow-load-more-btn" onclick="window.shadowingStudio.loadMoreQuotes()">
+            Ko'proq iboralarni yuklash (+25) ⬇️
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 7: DESTINATION B2 EXAM & GRAMMAR/VOCAB QUIZ
+         ========================================== -->
+    <section id="destination-view" class="tab-view">
+      <div class="dest-quiz-wrapper">
+        
+        <!-- Header Banner & Controls -->
+        <div class="dest-header-panel ios-glass-panel">
+          <div class="dest-title-row">
+            <div>
+              <div class="dest-badge-tag">CAMBRIDGE B2 EXAM PREPARATION</div>
+              <h2 class="dest-main-title">📘 DESTINATION B2: TEST VARAG'I</h2>
+              <p class="dest-subtitle">10, 20 yoki 30 ta test bitta varaqda ochiladi. Barchasini belgilab, yakuniy bitta tugma orqali tekshiring!</p>
+            </div>
+            
+            <!-- Test Count Selector (10, 20, 30) -->
+            <div class="dest-count-box">
+              <span class="dest-control-label">⚡ TESTLAR SONI:</span>
+              <div class="dest-count-group">
+                <button type="button" class="dest-count-pill active ios-button" data-count="10" onclick="window.destinationB2Quiz.setTestCount(10)">
+                  10 ta Test
+                </button>
+                <button type="button" class="dest-count-pill ios-button" data-count="20" onclick="window.destinationB2Quiz.setTestCount(20)">
+                  20 ta Test
+                </button>
+                <button type="button" class="dest-count-pill ios-button" data-count="30" onclick="window.destinationB2Quiz.setTestCount(30)">
+                  30 ta Test 👑
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filter Toolbar -->
+          <div class="dest-toolbar-row">
+            <div class="dest-topic-wrap">
+              <span class="dest-control-label">📂 MAVZU BO'YICHA:</span>
+              <select id="dest-topic-select" class="dest-topic-select ios-input-field" onchange="window.destinationB2Quiz.setTopicFilter(this.value)">
+                <option value="ALL">📚 Barcha Mavzular (Aralash B2 Imtihon)</option>
+              </select>
+            </div>
+
+            <button type="button" class="dest-new-shuffle-btn ios-button" onclick="window.destinationB2Quiz.startNewQuiz()">
+              🔀 Yangi testlar to'plami
+            </button>
+          </div>
+        </div>
+
+        <!-- Sticky Floating Verification & Progress Bar -->
+        <div class="dest-sticky-tracker ios-glass-panel" id="dest-sticky-tracker">
+          <div class="tracker-left">
+            <span class="dest-tracker-icon">📝</span>
+            <div class="dest-tracker-meta">
+              <span id="dest-progress-text">Belgilandi: <strong>0</strong> / 10 ta</span>
+              <div class="dest-tracker-bar-bg">
+                <div class="dest-tracker-bar-fill" id="dest-progress-fill" style="width: 0%;"></div>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="dest-submit-btn ios-button" id="dest-check-all-btn" onclick="window.destinationB2Quiz.checkAllAnswers()" disabled>
+            BARCHASINI TEKSHIRISH (CHECK ALL) 🔍
+          </button>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="dest-loading-indicator" class="dest-loading-indicator" style="display: none;">
+          <div class="ios-spinner"></div>
+          <span>Destination B2 testlari yuklanmoqda...</span>
+        </div>
+
+        <!-- Questions Sheet Container (All 10, 20 or 30 questions rendered on 1 page) -->
+        <div id="dest-questions-sheet" class="dest-questions-sheet">
+          <!-- Rendered dynamically by window.destinationB2Quiz.renderQuizSheet() -->
+        </div>
+
+        <!-- Overall Exam Evaluation & Summary Card (Revealed after Check All) -->
+        <div id="dest-summary-card" class="dest-summary-card" style="display: none;"></div>
+
+        <!-- Bottom Duplicate Check All Button for convenience at end of test -->
+        <div class="dest-bottom-actions-row">
+          <button type="button" class="dest-bottom-submit-btn ios-button" onclick="window.destinationB2Quiz.checkAllAnswers()">
+            📝 BARCHASINI TEKSHIRISH (CHECK ALL)
+          </button>
+        </div>
+
+        <!-- Recent History / Past Test Runs -->
+        <div class="dest-history-panel ios-glass-panel">
+          <h3 class="dest-history-title">📊 Oxirgi Topshirilgan Testlar Natijalari</h3>
+          <div class="dest-history-list" id="dest-history-list">
+            <!-- Rendered by updateHistoryStats() -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="footer-inner">
+        <p class="footer-brand">SHADOW LEXICON © 2026 // English-Uzbek 10,000 Words & 1,000 Flashcards</p>
+        <div class="footer-links">
+          <a href="#" onclick="window.app.switchTab('games')">So'z O'yinlari</a>
+          <a href="#" onclick="window.app.switchTab('destination')">Destination B2 Quiz</a>
+          <a href="#" onclick="window.app.switchTab('shadowing')">Kino Shadowing</a>
+          <a href="#" onclick="window.app.switchTab('flashcards')">Flashkardlar</a>
+          <a href="#" onclick="window.app.switchTab('dictionary')">Lug'at</a>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- iPhone Style Mobile Bottom Navigation Bar (Smartfonlar uchun) -->
+  <nav class="ios-bottom-tabbar">
+    <button class="tabbar-item active ios-button" onclick="window.app.switchTab('home')">
+      <span class="tabbar-icon">🏠</span>
+      <span>Asosiy</span>
+    </button>
+    <button class="tabbar-item ios-button" onclick="window.app.switchTab('games')">
+      <span class="tabbar-icon">🎮</span>
+      <span>O'yinlar</span>
+    </button>
+    <button class="tabbar-item ios-button" onclick="window.app.switchTab('destination')">
+      <span class="tabbar-icon">📘</span>
+      <span>B2 Quiz</span>
+    </button>
+    <button class="tabbar-item ios-button" onclick="window.app.switchTab('shadowing')">
+      <span class="tabbar-icon">🎬</span>
+      <span>Shadowing</span>
+    </button>
+    <button class="tabbar-item ios-button" onclick="window.app.switchTab('quest')">
+      <span class="tabbar-icon">🏰</span>
+      <span>Labirint</span>
+    </button>
+    <button class="tabbar-item ios-button" onclick="window.app.switchTab('flashcards')">
+      <span class="tabbar-icon">🎴</span>
+      <span>Flashkard</span>
+    </button>
+    <button class="tabbar-item ios-button" onclick="window.app.switchTab('dictionary')">
+      <span class="tabbar-icon">📖</span>
+      <span>Lug'at</span>
+    </button>
+  </nav>
+
+  <!-- Ixcham Skriptlar Ketma-ketligi (Fast Loading & Caching) -->
+  <script src="js/words_data.js"></script>
+  <script src="js/flashcards_data.js"></script>
+  <script src="js/core.bundle.js"></script>
+  <script src="js/flashcards.js"></script>
+  <script src="js/shadowing.js"></script>
+  <script src="js/destination_b2.js"></script>
+  <script src="js/games.bundle.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

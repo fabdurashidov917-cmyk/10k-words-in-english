@@ -1,0 +1,1742 @@
+[
+  {
+    "unit": "Unit 1: Present Time",
+    "topic": "Present Tenses",
+    "q": "I can't talk right now because I _____ dinner with my family.",
+    "options": [
+      "have",
+      "am having",
+      "have had",
+      "had"
+    ],
+    "answer": 1,
+    "rule_short": "'have dinner' bu yerda jarayon (ovqatlanish) ma'nosida kelgani uchun ayni paytda Present Continuous (am having) ishlatiladi.",
+    "rule_detailed": "'have' fe'li egalik qilish (possession) ma'nosida stative (davom etmaydigan) fe'l bo'lsa-da, ovqatlanish yoki vaqt o'tkazish ma'nosida dinamik harakat hisoblanadi va Present Continuous shaklida ('am having dinner') qo'llanadi. 'can't talk right now' ayni lahzadagi jarayonni ko'rsatmoqda.",
+    "id": 1
+  },
+  {
+    "unit": "Unit 1: Present Time",
+    "topic": "Present Tenses",
+    "q": "How long _____ for the bus? You look completely frozen!",
+    "options": [
+      "do you wait",
+      "are you waiting",
+      "have you been waiting",
+      "were you waiting"
+    ],
+    "answer": 2,
+    "rule_short": "'How long' va hozirgacha davom etgan jarayon uchun Present Perfect Continuous (have you been waiting) talab qilinadi.",
+    "rule_detailed": "'How long' savol so'zi o'tmishda boshlanib, ayni damgacha davom etayotgan yoki hozirgina tugagan harakat davomiyligini so'rash uchun ishlatiladi. Bu holatda formula: have/has + subject + been + V-ing. 'are you waiting' hozirgi lahzani ko'rsatadi, ammo davomiylikni bildirmaydi.",
+    "id": 2
+  },
+  {
+    "unit": "Unit 1: Present Time",
+    "topic": "Present Tenses",
+    "q": "Water _____ at 100 degrees Celsius under normal pressure.",
+    "options": [
+      "is boiling",
+      "boils",
+      "has boiled",
+      "will boil"
+    ],
+    "answer": 1,
+    "rule_short": "Tabiat qonunlari va ilmiy haqiqatlar doimo Present Simple (boils) bilan beriladi.",
+    "rule_detailed": "Doimiy qoidalar, ilmiy faktlar va tabiat qonunlari o'zgarmas haqiqat (general truths) hisoblanadi. Ular hech qachon continuous yoki kelasi zamonda berilmaydi, faqat Present Simple (boils) zamonida ifodalanadi.",
+    "id": 3
+  },
+  {
+    "unit": "Unit 1: Present Time",
+    "topic": "Present Tenses",
+    "q": "I _____ what you mean, but I still disagree with your conclusion.",
+    "options": [
+      "see",
+      "am seeing",
+      "have been seeing",
+      "was seeing"
+    ],
+    "answer": 0,
+    "rule_short": "'see' fe'li 'tushunmoq' (understand) ma'nosida stative fe'l bo'lib, Continuousda ishlatilmaydi.",
+    "rule_detailed": "'see' fe'li ikki xil ma'noda ishlatiladi: 1) 'tushunmoq' (I see what you mean) - bu stative fe'l va faqat Present Simpleda qo'llanadi. 2) 'uchrashmoq' (I am seeing the doctor tomorrow) - bu rejalashtirilgan harakat bo'lib Continuousda kela oladi. Bu yerda tushunish ma'nosida bo'lgani uchun 'see' to'g'ri.",
+    "id": 4
+  },
+  {
+    "unit": "Unit 1: Present Time",
+    "topic": "Present Tenses",
+    "q": "Look at the mess in your room! What on earth _____ all morning?",
+    "options": [
+      "did you do",
+      "have you been doing",
+      "do you do",
+      "were you doing"
+    ],
+    "answer": 1,
+    "rule_short": "'all morning' vaqti va ayni paytda ko'rinib turgan natija (mess) uchun Present Perfect Continuous ishlatiladi.",
+    "rule_detailed": "Harakat yaqindagina tugagan yoki davom etayotgan bo'lib, uning asorati/natijasi ayni paytda yaqqol ko'rinib tursa (xona to'zg'igan), shuningdek 'all morning/all day' kabi davomiylik ko'rsatkichi bo'lsa, Present Perfect Continuous (have you been doing) qo'llanadi.",
+    "id": 5
+  },
+  {
+    "unit": "Unit 1: Present Time",
+    "topic": "Present Tenses",
+    "q": "This milk smells terrible. I think it _____ sour.",
+    "options": [
+      "goes",
+      "is going",
+      "has gone",
+      "had gone"
+    ],
+    "answer": 2,
+    "rule_short": "Natijasi ayni damda sezilib turgan (smells terrible) o'tmishdagi o'zgarish uchun Present Perfect (has gone) olinadi.",
+    "rule_detailed": "Sut allaqachon aynib bo'lgan va uning natijasi hozir hididan ma'lum. O'tmishda sodir bo'lgan, ammo hozirgi vaziyatga bevosita ta'siri bor harakatlar uchun Present Perfect Simple (has gone sour) ishlatiladi.",
+    "id": 6
+  },
+  {
+    "unit": "Unit 2: Past Time",
+    "topic": "Past Tenses",
+    "q": "When we arrived at the cinema, the movie _____ already started.",
+    "options": [
+      "has",
+      "had",
+      "was",
+      "would"
+    ],
+    "answer": 1,
+    "rule_short": "O'tmishdagi ikkita harakatdan avvalroq sodir bo'lgani uchun Past Perfect (had already started) tanlanadi.",
+    "rule_detailed": "Kinoteatrga yetib borish (arrived - Past Simple) sodir bo'lishidan oldin film boshlanib bo'lgan. O'tmishdagi ma'lum bir vaqtdan oldinroq tugallangan harakat Past Perfect (had + V3) zamonida ifodalanadi.",
+    "id": 7
+  },
+  {
+    "unit": "Unit 2: Past Time",
+    "topic": "Past Tenses",
+    "q": "While I _____ down the street, I bumped into an old school friend.",
+    "options": [
+      "walked",
+      "was walking",
+      "had walked",
+      "have walked"
+    ],
+    "answer": 1,
+    "rule_short": "'While' bog'lovchisi bilan davom etayotgan o'tgan zamon jarayoni (Past Continuous) beriladi.",
+    "rule_detailed": "O'tmishda biror uzoqroq jarayon davom etayotgan paytda (was walking) to'satdan qisqa harakat sodir bo'lsa (bumped into), davom etgan qism Past Continuous (was/were + V-ing) bilan, uni bo'lgan qisqa harakat esa Past Simple bilan yoziladi.",
+    "id": 8
+  },
+  {
+    "unit": "Unit 2: Past Time",
+    "topic": "Past Tenses",
+    "q": "When my grandfather was young, he _____ walk ten miles to school every day.",
+    "options": [
+      "would",
+      "was used to",
+      "is used to",
+      "used"
+    ],
+    "answer": 0,
+    "rule_short": "O'tmishdagi takroriy odat tusiga kirgan harakatlar uchun 'would + bare infinitive' ishlatiladi.",
+    "rule_detailed": "O'tmishda muntazam takrorlangan harakatlar (past habits) uchun 'used to' yoki 'would + V' ishlatiladi. 'used' ning o'zi 'to' siz kelolmaydi. 'was used to' esa ortidan V-ing talab qiladi. Shuning uchun bu yerda 'would walk' to'g'ri.",
+    "id": 9
+  },
+  {
+    "unit": "Unit 2: Past Time",
+    "topic": "Past Tenses",
+    "q": "She was out of breath because she _____ for more than an hour.",
+    "options": [
+      "ran",
+      "had been running",
+      "has been running",
+      "was running"
+    ],
+    "answer": 1,
+    "rule_short": "O'tgan zamondagi holat (was out of breath) sababi bo'lgan undan oldingi davomiy harakat Past Perfect Continuousda beriladi.",
+    "rule_detailed": "Bosh gap o'tgan zamonda ('she was out of breath'). Nafasi qisilishiga sabab bo'lgan harakat undan oldin 1 soat davomida bo'lgan ('for more than an hour'). O'tmishdagi voqeadan oldingi davomiy jarayon uchun had been + V-ing qo'llaniladi.",
+    "id": 10
+  },
+  {
+    "unit": "Unit 2: Past Time",
+    "topic": "Past Tenses",
+    "q": "Did you _____ to live in London before moving to Manchester?",
+    "options": [
+      "use",
+      "used",
+      "using",
+      "uses"
+    ],
+    "answer": 0,
+    "rule_short": "So'roq gapda 'Did' yordamchi fe'li kelganda 'used' fe'li asosiy shaklga ('use') qaytadi.",
+    "rule_detailed": "Past Simple so'roq va inkor gaplarida 'Did you use to...?' va 'I didn't use to...' shaklida bo'ladi. 'Did' o'tmish belgisini o'ziga olgani sababli 'used' dagi '-d' tushib qoladi.",
+    "id": 11
+  },
+  {
+    "unit": "Unit 3: Travel & Transport",
+    "topic": "Phrasal Verbs",
+    "q": "We need to set _____ early tomorrow morning if we want to beat the traffic.",
+    "options": [
+      "off",
+      "up",
+      "down",
+      "in"
+    ],
+    "answer": 0,
+    "rule_short": "'set off' iboraviy fe'li 'safar/yo'lga chiqmoq' ma'nosini bildiradi.",
+    "rule_detailed": "'set off' yoki 'set out' - safarga otlanmoq, yo'lga chiqmoq (start a journey). 'set up' tashkil qilmoq, 'set down' esa yozib qo'ymoq ma'nosida keladi. Erta tongda yo'lga chiqish uchun 'set off' ishlatiladi.",
+    "id": 12
+  },
+  {
+    "unit": "Unit 3: Travel & Transport",
+    "topic": "Collocations",
+    "q": "Make sure you book your flight tickets well in _____ to get the cheapest deal.",
+    "options": [
+      "advance",
+      "front",
+      "ahead",
+      "before"
+    ],
+    "answer": 0,
+    "rule_short": "'in advance' - oldindan, vaqtidan ilgari degan turg'un bog'lanma (collocation).",
+    "rule_detailed": "Ingliz tilida 'oldindan bron qilmoq' ma'nosi uchun faqat 'in advance' turg'un iborasi qo'llanadi. 'in front' - oldida (joylashuv), 'ahead' esa 'go ahead' kabi keladi, 'in' predlogi bilan birikmaydi.",
+    "id": 13
+  },
+  {
+    "unit": "Unit 4: Hobbies & Sport",
+    "topic": "Phrasal Verbs",
+    "q": "Mark decided to take _____ tennis to keep fit during the summer.",
+    "options": [
+      "up",
+      "on",
+      "in",
+      "over"
+    ],
+    "answer": 0,
+    "rule_short": "'take up a sport/hobby' - yangi sport yoki sevimli mashg'ulot bilan shug'ullanishni boshlamoq.",
+    "rule_detailed": "'take up' - yangi sevimli mashg'ulot (hobby) yoki sportni o'rganishni boshlamoq (start a hobby or activity). 'take on' - mas'uliyatni bo'yniga olmoq yoki ishga qabul qilmoq, 'take over' - nazoratni o'z qo'liga olmoq.",
+    "id": 14
+  },
+  {
+    "unit": "Unit 4: Hobbies & Sport",
+    "topic": "Vocabulary",
+    "q": "The referee blew his whistle and sent the defender _____ the pitch.",
+    "options": [
+      "off",
+      "away",
+      "out",
+      "down"
+    ],
+    "answer": 0,
+    "rule_short": "'send off' - o'yindan chetlatmoq (qizil kartochka ko'rsatmoq).",
+    "rule_detailed": "Futbol va sport terminologiyasida hakam o'yinchini maydondan chiqarib yuborishi 'send off' deb ataladi (send someone off the pitch). 'send away' esa boshqa joyga jo'natib yubormoq ma'nosida umumiy so'zdir.",
+    "id": 15
+  },
+  {
+    "unit": "Unit 5: Future Time",
+    "topic": "Future Forms",
+    "q": "By this time next week, we _____ all our final examinations.",
+    "options": [
+      "will finish",
+      "will have finished",
+      "will be finishing",
+      "are finishing"
+    ],
+    "answer": 1,
+    "rule_short": "'By this time next week' ko'rsatkichi kelasi zamonda ma'lum vaqtgacha tugallanadigan ish-harakat (Future Perfect)ni talab qiladi.",
+    "rule_detailed": "'By + kelasi vaqt' (By tomorrow, By next week, By 2030) ko'rsatkichlari Future Perfect (will have + V3) zamonining asosiy kalit so'zidir. Bu kelajakdagi ma'lum nuqtaga qadar ish-harakat to'liq yakunlanishini bildiradi.",
+    "id": 16
+  },
+  {
+    "unit": "Unit 5: Future Time",
+    "topic": "Future Forms",
+    "q": "This time tomorrow, I _____ on a sunny beach in Spain.",
+    "options": [
+      "will lie",
+      "will be lying",
+      "will have lain",
+      "am lying"
+    ],
+    "answer": 1,
+    "rule_short": "'This time tomorrow' kelasi zamonda aynan o'sha lahzada davom etayotgan jarayon (Future Continuous)ni bildiradi.",
+    "rule_detailed": "'This time tomorrow / at 5 pm tomorrow' kabi aniq kelasi vaqt ko'rsatilgan paytda jarayon davom etayotgan bo'ladi. Buning uchun Future Continuous (will be + V-ing) ishlatiladi: 'I will be lying on a beach'.",
+    "id": 17
+  },
+  {
+    "unit": "Unit 5: Future Time",
+    "topic": "Future Forms",
+    "q": "Watch out! That ladder _____ fall over!",
+    "options": [
+      "will",
+      "is going to",
+      "is falling",
+      "falls"
+    ],
+    "answer": 1,
+    "rule_short": "Ayni damda ko'z oldimizda dalil/alomat (ladder tebranyapti) bo'lgan bashoratlar uchun 'be going to' ishlatiladi.",
+    "rule_detailed": "Hozirgi mavjud dalillarga asoslangan muqarrar bashoratlar (predictions based on present evidence) uchun 'be going to' qo'llanadi. 'will' esa asosan taxmin yoki subyektiv fikrlarda ishlatiladi.",
+    "id": 18
+  },
+  {
+    "unit": "Unit 5: Future Time",
+    "topic": "Future Forms",
+    "q": "The train to Edinburgh _____ at 9:30 tomorrow morning from platform 4.",
+    "options": [
+      "leaves",
+      "will leave",
+      "is leaving",
+      "has left"
+    ],
+    "answer": 0,
+    "rule_short": "Rasmiy jadvallar, poyezd va samolyot qatnovlari uchun Present Simple (leaves) ishlatiladi.",
+    "rule_detailed": "Poyezdlar, darslar, kinoseanslar va rasmiy jadvallar (timetables / official schedules) kelasi zamonga tegishli bo'lsa ham doimo Present Simple zamonida beriladi: 'The train leaves at 9:30'.",
+    "id": 19
+  },
+  {
+    "unit": "Unit 7: Passives & Causative",
+    "topic": "Passive Voice",
+    "q": "The new bridge across the river _____ by the end of next month.",
+    "options": [
+      "will complete",
+      "will be completed",
+      "will have completed",
+      "is completing"
+    ],
+    "answer": 1,
+    "rule_short": "Ko'prik o'zi bitmaydi, u qurib bitkaziladi (Passive Voice: will be completed).",
+    "rule_detailed": "Ega ('The new bridge') harakat bajaruvchisi emas, balki obyektidir. Kelasi zamon majhul nisbati (Future Simple Passive) formulasi: will be + V3 (will be completed).",
+    "id": 20
+  },
+  {
+    "unit": "Unit 7: Passives & Causative",
+    "topic": "Causative Forms",
+    "q": "I couldn't fix my laptop myself, so I had to have it _____ by a professional.",
+    "options": [
+      "repair",
+      "repairing",
+      "repaired",
+      "to repair"
+    ],
+    "answer": 2,
+    "rule_short": "'have something done' konstruktsiyasida buyumdan keyin doimo fe'lning 3-shakli (repaired) keladi.",
+    "rule_detailed": "Causative (sabab nisbati) formulasi: have/get + object + Past Participle (V3). Boshqa birovga biror xizmatni bajartirish ma'nosida ishlatiladi: 'have it repaired' = uni ustaga ta'mirlatmoq.",
+    "id": 21
+  },
+  {
+    "unit": "Unit 7: Passives & Causative",
+    "topic": "Passive Voice",
+    "q": "It is widely _____ that climate change is one of humanity's greatest challenges.",
+    "options": [
+      "believed",
+      "believing",
+      "believe",
+      "believes"
+    ],
+    "answer": 0,
+    "rule_short": "Impersonal passive: 'It is + V3 (believed) + that...' turg'un grammatik andoza.",
+    "rule_detailed": "Umumiy xalq fikrini bildirishda 'It is said / thought / believed / reported that...' kabi shaxssiz majhul nisbat (impersonal passive) qo'llanadi. 'It is' dan keyin fe'lning 3-shakli (believed) kelishi shart.",
+    "id": 22
+  },
+  {
+    "unit": "Unit 7: Passives & Causative",
+    "topic": "Passive Voice",
+    "q": "He is believed _____ the country using a fake passport.",
+    "options": [
+      "to leave",
+      "to have left",
+      "leaving",
+      "having left"
+    ],
+    "answer": 1,
+    "rule_short": "O'tmishdagi harakat haqida hozir taxmin bildirilganda: 'is believed + to have + V3'.",
+    "rule_detailed": "Personal passive tuzilishida: 'He is believed / thought' dan keyin harakat o'tmishda bo'lib o'tgan bo'lsa Perfect Infinitive (to have left) ishlatiladi. 'to leave' bo'lsa hozir yoki kelajakka tegishli bo'lib qolardi.",
+    "id": 23
+  },
+  {
+    "unit": "Unit 8: Modals 1",
+    "topic": "Modal Verbs",
+    "q": "You _____ come to the meeting if you have already submitted your report.",
+    "options": [
+      "mustn't",
+      "don't have to",
+      "can't",
+      "shouldn't to"
+    ],
+    "answer": 1,
+    "rule_short": "'don't have to' - shart emas / majburiyat yo'q (no obligation) ma'nosini bildiradi.",
+    "rule_detailed": "'mustn't' qat'iy taqiqni (prohibition) bildiradi (aslo mumkin emas). 'don't have to' esa ehtiyoj/majburiyat yo'qligini bildiradi ('kelishingiz shart emas, ammo xohlasangiz kelishingiz mumkin'). Kontekstda hisobot topshirilgani uchun majburiyat yo'qligi aytilmoqda.",
+    "id": 24
+  },
+  {
+    "unit": "Unit 11: Modals 2",
+    "topic": "Modal Verbs",
+    "q": "Sarah has been studying medicine for six years. The exam _____ easy for her.",
+    "options": [
+      "can't be",
+      "must be",
+      "shouldn't be",
+      "wouldn't be"
+    ],
+    "answer": 1,
+    "rule_short": "Kuchli ijobiy mantiqiy xulosa (positive deduction) uchun 'must be' qo'llanadi.",
+    "rule_detailed": "6 yil tibbiyotni o'qigan kishi uchun imtihon oson bo'lishi mantiqan shubhasizdek tuyuladi. Hozirgi zamondagi qat'iy mantiqiy ishonch/xulosa (deduction) uchun 'must be' ishlatiladi ('albatta oson bo'lsa kerak').",
+    "id": 25
+  },
+  {
+    "unit": "Unit 11: Modals 2",
+    "topic": "Modal Verbs",
+    "q": "The streets are completely wet. It _____ have rained during the night.",
+    "options": [
+      "must",
+      "can't",
+      "should",
+      "might not"
+    ],
+    "answer": 0,
+    "rule_short": "O'tmishdagi harakat haqida qat'iy mantiqiy xulosa: 'must have + V3' (yomg'ir yoqqan bo'lishi aniq).",
+    "rule_detailed": "Ko'chalar ho'lligi (dalil) orqali kechasi yomg'ir yoqqanligi deyarli aniq deb xulosa qilinmoqda. O'tgan zamondagi yuqori darajadagi mantiqiy ishonch uchun 'must have + Past Participle' (must have rained) qo'llanadi.",
+    "id": 26
+  },
+  {
+    "unit": "Unit 11: Modals 2",
+    "topic": "Modal Verbs",
+    "q": "He _____ have committed the crime because he was in Paris with fifty witnesses.",
+    "options": [
+      "must",
+      "can't",
+      "shouldn't",
+      "might"
+    ],
+    "answer": 1,
+    "rule_short": "O'tmishdagi inkoriy mantiqiy xulosa (imkonsizlik) uchun 'can't have + V3' ishlatiladi.",
+    "rule_detailed": "Gumonlanuvchi o'sha paytda boshqa shaharda 50 kishining ko'z o'ngida bo'lgani sababli, jinoyatni u qilgan bo'lishi mutlaqo imkonsiz. O'tmishdagi imkonsizlik uchun 'can't have + V3' yoki 'couldn't have + V3' ishlatiladi.",
+    "id": 27
+  },
+  {
+    "unit": "Unit 8: Modals 1",
+    "topic": "Modal Verbs",
+    "q": "You _____ spoken to your teacher so rudely yesterday. You owe her an apology.",
+    "options": [
+      "shouldn't have",
+      "mustn't have",
+      "couldn't have",
+      "wouldn't"
+    ],
+    "answer": 0,
+    "rule_short": "O'tmishda qilingan xato ish uchun afsus/tanbeh: 'shouldn't have + V3' (gapirmasliging kerak edi).",
+    "rule_detailed": "O'tgan zamondagi noto'g'ri harakatga tanbeh berish yoki pushaymonlik bildirish uchun 'should have / shouldn't have + V3' ishlatiladi. 'mustn't have' degan grammatik shakl mavjud emas.",
+    "id": 28
+  },
+  {
+    "unit": "Unit 13: Articles",
+    "topic": "Articles & Nouns",
+    "q": "Could you give me _____ advice on how to prepare for the job interview?",
+    "options": [
+      "an",
+      "some",
+      "a few",
+      "many"
+    ],
+    "answer": 1,
+    "rule_short": "'advice' sanalmaydigan ot (uncountable) bo'lgani sababli 'an' yoki 'a few' bilan kelolmaydi, 'some' to'g'ri.",
+    "rule_detailed": "Ingliz tilida 'advice' (maslahat), 'information', 'news', 'furniture' kabi otlar sanalmaydi (uncountable). Ular oldidan noaniq artikl 'a/an' yoki ko'plikdagi 'a few/many' ishlatilmaydi. Faqat 'some advice' yoki 'a piece of advice' deyiladi.",
+    "id": 29
+  },
+  {
+    "unit": "Unit 13: Articles",
+    "topic": "Articles & Nouns",
+    "q": "_____ Himalayas are the highest mountain range on Earth.",
+    "options": [
+      "The",
+      "A",
+      "An",
+      "—"
+    ],
+    "answer": 0,
+    "rule_short": "Tog' tizmalari (mountain ranges) nomi oldidan doimo 'The' artikli qo'yiladi.",
+    "rule_detailed": "Tog' tizmalari (Himalayas, Alps, Andes) doimo 'The' artikli bilan keladi. Ammo alohida bitta cho'qqi/tog' nomi oldidan (Mount Everest, Mount Fuji) artikl qo'yilmaydi.",
+    "id": 30
+  },
+  {
+    "unit": "Unit 14: Determiners",
+    "topic": "Quantifiers",
+    "q": "Unfortunately, _____ students passed the test because it was extremely difficult.",
+    "options": [
+      "few",
+      "a few",
+      "little",
+      "a little"
+    ],
+    "answer": 0,
+    "rule_short": "'few' (artiklsiz) sanaladigan otlar bilan 'juda kam / deyarli yo'q' salbiy ma'nosini bildiradi.",
+    "rule_detailed": "'students' sanaladigan ko'plikdagi ot bo'lgani uchun 'little/a little' to'g'ri kelmaydi. 'a few' ijobiy ma'noda (bir nechta), 'few' esa inkoriy ma'noda (deyarli hech kim o'tolmadi) keladi. 'Unfortunately' so'zi salbiy ma'nodagi 'few' ni talab qiladi.",
+    "id": 31
+  },
+  {
+    "unit": "Unit 17: Conditionals",
+    "topic": "Conditionals",
+    "q": "If I _____ you, I would consult a doctor immediately.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "had been"
+    ],
+    "answer": 2,
+    "rule_short": "Second conditionalda maslahat berish uchun 'If I were you' qat'iy qoidasi qo'llanadi.",
+    "rule_detailed": "Second Conditional nohaqiqiy hozirgi zamon holatini ifodalaydi. Subjunctive kayfiyatida barcha shaxslar uchun 'were' ishlatish grammatik jihatdan eng to'g'ri hisoblanadi (ayniqsa maslahat iborasi: 'If I were you, I would...').",
+    "id": 32
+  },
+  {
+    "unit": "Unit 17: Conditionals",
+    "topic": "Conditionals",
+    "q": "If you had set an alarm last night, you _____ your train this morning.",
+    "options": [
+      "wouldn't miss",
+      "wouldn't have missed",
+      "won't miss",
+      "didn't miss"
+    ],
+    "answer": 1,
+    "rule_short": "Third Conditional: 'If + had + V3, would have + V3' (o'tmishdagi afsus).",
+    "rule_detailed": "Third conditional o'tmishda sodir bo'lmagan shart va uning o'tmishdagi natijasini ifodalaydi. Shart qismi: 'had set' (Past Perfect), natija qismi: 'would have + V3' (wouldn't have missed).",
+    "id": 33
+  },
+  {
+    "unit": "Unit 17: Conditionals",
+    "topic": "Conditionals",
+    "q": "If I had taken that job in New York, I _____ in Manhattan today.",
+    "options": [
+      "would live",
+      "would have lived",
+      "will live",
+      "lived"
+    ],
+    "answer": 0,
+    "rule_short": "Mixed Conditional: o'tmishdagi shart (had taken) + hozirgi kundagi natija (would live today).",
+    "rule_detailed": "Mixed Conditional (Aralash shart): Shart o'tmishda bajarilmagan ('If I had taken' - Past Perfect), ammo uning natijasi ayni bugungi kunga tegishli ('today' so'zi bor). Shuning uchun natija qismida 'would live' (would + bare infinitive) ishlatiladi.",
+    "id": 34
+  },
+  {
+    "unit": "Unit 17: Conditionals",
+    "topic": "Wishes",
+    "q": "I wish I _____ so much money on unnecessary clothes yesterday.",
+    "options": [
+      "didn't spend",
+      "hadn't spent",
+      "wouldn't spend",
+      "haven't spent"
+    ],
+    "answer": 1,
+    "rule_short": "O'tmishdagi harakatdan afsuslanish uchun 'wish + Past Perfect (hadn't spent)' ishlatiladi.",
+    "rule_detailed": "'wish' fe'lidan keyin: 1) Hozirgi zamondagi istak uchun Past Simple, 2) O'tmishdagi ishdan afsuslanish uchun esa Past Perfect qo'llanadi. 'yesterday' so'zi o'tmishni ko'rsatgani sababli 'hadn't spent' to'g'ri.",
+    "id": 35
+  },
+  {
+    "unit": "Unit 17: Conditionals",
+    "topic": "Conditionals",
+    "q": "We won't go on a picnic tomorrow _____ the weather improves dramatically.",
+    "options": [
+      "if",
+      "unless",
+      "in case",
+      "as long as"
+    ],
+    "answer": 1,
+    "rule_short": "'unless' = 'if not' (agar yaxshilanmasa).",
+    "rule_detailed": "'unless' so'zi o'zida inkor ma'nosini saqlaydi ('agar ... bo'lmasa'). Gap ma'nosi: 'Ertaga havo keskin yaxshilanmasa, biz sayrga bormaymiz'. 'if' qo'yilsa mantiq teskari bo'lib qoladi.",
+    "id": 36
+  },
+  {
+    "unit": "Unit 19: Reported Speech",
+    "topic": "Reported Speech",
+    "q": "\"I will call you tomorrow,\" David said. -> David promised that he _____ me the following day.",
+    "options": [
+      "will call",
+      "would call",
+      "called",
+      "had called"
+    ],
+    "answer": 1,
+    "rule_short": "Reported speechda bosh fe'l o'tmishda bo'lsa, 'will' zamoni 'would' ga orqaga siljiydi (backshift).",
+    "rule_detailed": "O'zlashtirma gapda kirish fe'li o'tgan zamonda bo'lsa ('promised'), to'g'ridan-to'g'ri nutqdagi Future Simple ('will call') o'zlashtirma gapda 'would call' ga aylanadi.",
+    "id": 37
+  },
+  {
+    "unit": "Unit 19: Reported Speech",
+    "topic": "Reporting Verbs",
+    "q": "The suspect denied _____ the expensive watch from the jewelry shop.",
+    "options": [
+      "steal",
+      "to steal",
+      "stealing",
+      "stolen"
+    ],
+    "answer": 2,
+    "rule_short": "'deny' reporting fe'lidan keyin doimo Gerund (V-ing) shakli keladi: 'deny doing sth'.",
+    "rule_detailed": "Maxsus reporting fe'llarining o'z grammatik andozasi bor: 'deny + V-ing' (rad etmoq), 'admit + V-ing', 'suggest + V-ing'. Shuning uchun 'denied stealing' to'g'ri variant.",
+    "id": 38
+  },
+  {
+    "unit": "Unit 19: Reported Speech",
+    "topic": "Reporting Verbs",
+    "q": "The police officer warned us _____ near the edge of the cliff.",
+    "options": [
+      "not going",
+      "not to go",
+      "to not go",
+      "don't go"
+    ],
+    "answer": 1,
+    "rule_short": "'warn someone not to do something' andozasi: 'warned us not to go'.",
+    "rule_detailed": "'warn' fe'li buyruq va ogohlantirish reporting fe'llari guruhiga kiradi: 'warn + object + (not) to + Infinitive'. To'g'ri inkor andozasi: 'warned us not to go'.",
+    "id": 39
+  },
+  {
+    "unit": "Unit 20: Relative Clauses",
+    "topic": "Relative Clauses",
+    "q": "The scientist _____ discovery won the Nobel Prize is giving a lecture today.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": 2,
+    "rule_short": "Egalik (kashfiyot egasi bo'lgan olim) ma'nosida 'whose + noun' ishlatiladi.",
+    "rule_detailed": "'whose' shaxslar yoki buyumlarga tegishli egalikni bildiradi: 'The scientist whose discovery...' = kashfiyoti Nobel mukofotini yutgan olim. 'who' esa shaxs o'zi ega bo'lganda keladi.",
+    "id": 40
+  },
+  {
+    "unit": "Unit 20: Relative Clauses",
+    "topic": "Relative Clauses",
+    "q": "Paris, _____ is the capital of France, attracts millions of tourists every year.",
+    "options": [
+      "that",
+      "which",
+      "where",
+      "what"
+    ],
+    "answer": 1,
+    "rule_short": "Vergul bilan ajratilgan non-defining relative clauselarda 'that' ishlatilishi mumkin emas, 'which' qo'yiladi.",
+    "rule_detailed": "Non-defining relative clauses (qo'shimcha ma'lumot beruvchi va ikki vergul oralig'ida keluvchi gaplar)da buyumlar va shaharlar uchun faqat 'which' yoki 'where' ishlatiladi. 'that' hech qachon verguldan keyin relative olmosh sifatida ishlatilmaydi.",
+    "id": 41
+  },
+  {
+    "unit": "Unit 20: Relative Clauses",
+    "topic": "Participle Clauses",
+    "q": "_____ by the loud noise outside, the baby woke up and started crying.",
+    "options": [
+      "Frightening",
+      "Frightened",
+      "Having frightened",
+      "To frighten"
+    ],
+    "answer": 1,
+    "rule_short": "Bola o'zi qo'rqitmagan, balki shovqindan qo'rqqan (Past Participle: Frightened).",
+    "rule_detailed": "Participle clauses da majhul nisbat ma'nosini ifodalash uchun Past Participle (V3) ishlatiladi: 'Frightened by the noise' = 'Because the baby was frightened by the noise'. 'Frightening' bo'lsa shovqinning o'ziga nisbatan aytilardi.",
+    "id": 42
+  },
+  {
+    "unit": "Unit 23: Inversion",
+    "topic": "Inversion",
+    "q": "Never before _____ such a breathtaking sunset in my entire life.",
+    "options": [
+      "I have seen",
+      "have I seen",
+      "did I see",
+      "I saw"
+    ],
+    "answer": 1,
+    "rule_short": "Salbiy so'z ('Never before') gap boshida kelsa, inversiya (have + I + seen) yuz beradi.",
+    "rule_detailed": "Gap inkor yoki cheklov ma'nosidagi so'zlar (Never, Seldom, Rarely, Hardly, Scarcely, Little) bilan boshlanganda, so'roq gap kabi inversiya sodir bo'ladi: Yordamchi fe'l egadan oldinga o'tadi -> 'Never before have I seen...'.",
+    "id": 43
+  },
+  {
+    "unit": "Unit 23: Inversion",
+    "topic": "Inversion",
+    "q": "Hardly had the plane landed _____ the passengers began unfastening their seatbelts.",
+    "options": [
+      "than",
+      "when",
+      "then",
+      "as"
+    ],
+    "answer": 1,
+    "rule_short": "'Hardly had ... when ...' qat'iy korrelyativ grammatik juftlikdir.",
+    "rule_detailed": "'Hardly had + Subject + V3 ... WHEN ...' va 'Scarcely had ... WHEN ...' iboralari 'endi... bo'lgan ham ediki' ma'nosini bildiradi. E'tibor bering: 'No sooner had ... THAN ...' bilan 'than' keladi, ammo 'Hardly' bilan faqat 'when' ishlatiladi.",
+    "id": 44
+  },
+  {
+    "unit": "Unit 23: Inversion",
+    "topic": "Inversion",
+    "q": "Not only _____ late for the interview, but he also forgot his resume.",
+    "options": [
+      "he was",
+      "was he",
+      "he had been",
+      "did he"
+    ],
+    "answer": 1,
+    "rule_short": "'Not only' gap boshida kelganda birinchi gapda inversiya (was he) bo'ladi.",
+    "rule_detailed": "'Not only ... but also' tuzilmasida 'Not only' gap boshiga chiqarilsa, unga ergashgan gapda inversiya yuz beradi: 'Not only was he late, but he also forgot...'. Bu ingliz tilida nutqni ta'sirchan (emphatic) qilish usulidir.",
+    "id": 45
+  },
+  {
+    "unit": "Unit 23: Inversion",
+    "topic": "Question Tags",
+    "q": "Nobody phoned while I was away, _____?",
+    "options": [
+      "didn't they",
+      "did they",
+      "did he",
+      "didn't he"
+    ],
+    "answer": 1,
+    "rule_short": "'Nobody' inkor ma'noda bo'lgani uchun tag question tasdiq bo'ladi va olmoshi 'they' olinadi ('did they?').",
+    "rule_detailed": "1) 'Nobody / No one / Neither' o'zida inkor saqlaydi, shuning uchun dumi tasdiq bo'lishi kerak. 2) Barcha noaniq shaxslar (everyone, somebody, nobody) question tagda 'they' olmoshi bilan almashtiriladi. 3) Fe'l o'tgan zamonda ('phoned') bo'lgani sababli yordamchi fe'l 'did'. Natija: 'did they?'.",
+    "id": 46
+  },
+  {
+    "unit": "Unit 25: -ing or Infinitive",
+    "topic": "Gerunds & Infinitives",
+    "q": "I clearly remember _____ the front door before leaving the house this morning.",
+    "options": [
+      "locking",
+      "to lock",
+      "lock",
+      "locked"
+    ],
+    "answer": 0,
+    "rule_short": "'remember + V-ing' - o'tmishda qilingan ishni eslamoq; 'remember to lock' esa esdan chiqarmasdan qulflash.",
+    "rule_detailed": "'remember + V-ing' o'tmishda sodir bo'lgan voqeani xotirada eslashni bildiradi (eshikni qulflaganim xotiramda aniq turibdi). 'remember + to-infinitive' esa biror ishni qilishni unutmaslikni bildiradi (masalan: 'Remember to lock the door!').",
+    "id": 47
+  },
+  {
+    "unit": "Unit 25: -ing or Infinitive",
+    "topic": "Gerunds & Infinitives",
+    "q": "We had been driving for four hours, so we stopped _____ a quick cup of coffee.",
+    "options": [
+      "having",
+      "to have",
+      "have",
+      "had"
+    ],
+    "answer": 1,
+    "rule_short": "'stop to have' - boshqa bir maqsad uchun to'xtamoq (qahva ichish uchun to'xtadik).",
+    "rule_detailed": "'stop + V-ing' odatni yoki harakatni butunlay to'xtatish (masalan: 'He stopped smoking'). 'stop + to-infinitive' esa biror yangi ishni qilish maqsadida to'xtashni bildiradi ('qahva ichish uchun to'xtadik').",
+    "id": 48
+  },
+  {
+    "unit": "Unit 25: -ing or Infinitive",
+    "topic": "Gerunds & Infinitives",
+    "q": "I really look forward to _____ from you soon.",
+    "options": [
+      "hear",
+      "hearing",
+      "heard",
+      "be hearing"
+    ],
+    "answer": 1,
+    "rule_short": "'look forward to' iborasidagi 'to' predlog (preposition) bo'lgani sababli ortidan Gerund (hearing) keladi.",
+    "rule_detailed": "'look forward to', 'be used to', 'object to', 'confess to' iboralaridagi 'to' infinitiv belgisi emas, balki predlogdir. Predloglardan keyin esa fe'l faqat Gerund (-ing) shaklida keladi: 'look forward to hearing'.",
+    "id": 49
+  },
+  {
+    "unit": "Unit 25: -ing or Infinitive",
+    "topic": "Gerunds & Infinitives",
+    "q": "My parents never let me _____ out late on school nights.",
+    "options": [
+      "to stay",
+      "staying",
+      "stay",
+      "stayed"
+    ],
+    "answer": 2,
+    "rule_short": "'let + person + bare infinitive (to siz fe'l)': 'let me stay'.",
+    "rule_detailed": "'let' va 'make' fe'llari faol nisbatda shaxsiy to'ldiruvchidan keyin to-siz sof infinitiv (bare infinitive) talab qiladi: 'let someone do something'. 'to stay' deb 'to' qo'yish qo'pol xatodir.",
+    "id": 50
+  },
+  {
+    "unit": "Unit 26: Comparison",
+    "topic": "Adjectives & Adverbs",
+    "q": "The more books you read, _____ your vocabulary will become.",
+    "options": [
+      "the richest",
+      "the richer",
+      "richer",
+      "more rich"
+    ],
+    "answer": 1,
+    "rule_short": "Qiyosiy mutanosiblik: 'The + comparative ..., the + comparative ...' (the richer).",
+    "rule_detailed": "'The more ..., the more ...' qoidasi (parallel increase): Ikkala qismda ham 'The' artikli va qiyosiy daraja (comparative) ishlatilishi shart: 'The more books you read, the richer your vocabulary will become'.",
+    "id": 51
+  },
+  {
+    "unit": "Unit 26: Comparison",
+    "topic": "Adjectives & Adverbs",
+    "q": "It was _____ a fascinating movie that we watched it twice.",
+    "options": [
+      "so",
+      "such",
+      "very",
+      "too"
+    ],
+    "answer": 1,
+    "rule_short": "'such + a/an + adjective + noun + that' andozasi: 'such a fascinating movie'.",
+    "rule_detailed": "'so' faqat sifat yoki ravish bilan keladi ('so fascinating that'). Agar sifatdan keyin ot kelsa ('fascinating movie'), 'such a/an' ishlatiladi: 'such a fascinating movie that'.",
+    "id": 52
+  },
+  {
+    "unit": "Unit 9: Science & Tech",
+    "topic": "Vocabulary",
+    "q": "Many scientific discoveries are made _____ chance rather than by deliberate design.",
+    "options": [
+      "by",
+      "in",
+      "on",
+      "with"
+    ],
+    "answer": 0,
+    "rule_short": "'by chance' - tasodifan, to'satdan ma'nosidagi turg'un collocation.",
+    "rule_detailed": "Ingliz tilida 'tasodifan' degan ibora faqat 'by chance' yoki 'by accident' shaklida ishlatiladi. 'on purpose' (ataylab) esa uning teskarisi hisoblanadi.",
+    "id": 53
+  },
+  {
+    "unit": "Unit 10: The Media",
+    "topic": "Collocations",
+    "q": "The prime minister's speech came _____ a lot of criticism from the opposition.",
+    "options": [
+      "in for",
+      "up with",
+      "down to",
+      "out of"
+    ],
+    "answer": 0,
+    "rule_short": "'come in for criticism' - tanqidga uchramoq, tanqid ostida qolmoq.",
+    "rule_detailed": "Destination B2 da 'come in for criticism / praise' - jamoatchilik yoki muxolifat tomonidan tanqid/maqtovga duchor bo'lmoq ma'nosidagi B2 darajali phrasal verb hisoblanadi.",
+    "id": 54
+  },
+  {
+    "unit": "Unit 15: People & Daily Life",
+    "topic": "Phrasal Verbs",
+    "q": "James really takes _____ his father; they have the exact same sense of humor.",
+    "options": [
+      "after",
+      "up",
+      "to",
+      "off"
+    ],
+    "answer": 0,
+    "rule_short": "'take after someone' - ota-onasiga yoki katta avlod vakiliga o'xshamoq (fe'l-atvor yoki ko'rinishda).",
+    "rule_detailed": "'take after someone' - xulq-atvor yoki tashqi ko'rinish jihatidan ota-onaga tortmoq (resemble an older family member). 'look like' ko'proq tashqi ko'rinishga, 'take after' esa xarakterga ham tegishlidir.",
+    "id": 55
+  },
+  {
+    "unit": "Unit 16: Law & Crime",
+    "topic": "Word Patterns",
+    "q": "The judge found the defendant guilty _____ armed robbery.",
+    "options": [
+      "of",
+      "for",
+      "with",
+      "in"
+    ],
+    "answer": 0,
+    "rule_short": "'guilty of' - biror jinoyatda aybdor deb topilmoq.",
+    "rule_detailed": "Huquqiy tilda 'guilty' (aybdor) va uning aksi 'innocent' (aybsiz) doimo 'of' predlogi bilan birikadi: 'guilty of robbery', 'innocent of the crime'.",
+    "id": 56
+  },
+  {
+    "unit": "Unit 21: Health & Fitness",
+    "topic": "Phrasal Verbs",
+    "q": "It took my grandmother several weeks to get _____ that severe flu.",
+    "options": [
+      "over",
+      "through",
+      "away",
+      "round"
+    ],
+    "answer": 0,
+    "rule_short": "'get over an illness' - kasallikdan tuzalmoq, o'ziga kelmoq.",
+    "rule_detailed": "'get over sth' - kasallik, ruhiy tushkunlik yoki yo'qotishdan forig' bo'lmoq (recover from an illness or difficult experience). 'get through' - qiyin davrni boshdan kechirmoq yoki telefon orqali ulanmoq.",
+    "id": 57
+  },
+  {
+    "unit": "Unit 22: Food & Drink",
+    "topic": "Collocations",
+    "q": "He decided to cut _____ on sugary drinks after reading about diabetes.",
+    "options": [
+      "down",
+      "off",
+      "out",
+      "away"
+    ],
+    "answer": 0,
+    "rule_short": "'cut down on' - iste'mol miqdorini kamaytirmoq.",
+    "rule_detailed": "'cut down on sth' - iste'molni qisqartirmoq, kamroq iste'mol qilmoq (reduce consumption). 'cut out' esa butunlay voz kechishni bildiradi.",
+    "id": 58
+  },
+  {
+    "unit": "Unit 27: Education",
+    "topic": "Word Patterns",
+    "q": "Despite studying hard, he failed to succeed _____ passing the bar exam.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "answer": 1,
+    "rule_short": "'succeed in doing sth' - biror ishni uddalamoq, muvaffaqiyatga erishmoq.",
+    "rule_detailed": "'succeed' fe'li doimo 'in' predlogi va Gerund bilan bog'lanadi: 'succeed in passing the exam'. 'manage to do' esa 'to' bilan keladi.",
+    "id": 59
+  },
+  {
+    "unit": "Unit 28: Work & Business",
+    "topic": "Collocations",
+    "q": "The company had to lay _____ fifty employees due to the economic crisis.",
+    "options": [
+      "off",
+      "out",
+      "down",
+      "away"
+    ],
+    "answer": 0,
+    "rule_short": "'lay off workers' - iqtisodiy sabablarga ko'ra xodimlarni ishdan bo'shatmoq.",
+    "rule_detailed": "'lay off' - kompaniya inqirozi yoki buyurtma kamligi sababli xodimlarni qisqartirish (make redundant / dismiss due to lack of work). 'fire' yoki 'sack' esa xodimning o'z xatosi tufayli ishdan haydalishidir.",
+    "id": 60
+  },
+  {
+    "unit": "Review Test: Collocations",
+    "topic": "Prepositions",
+    "q": "She insisted _____ paying for the dinner even though we offered to split the bill.",
+    "options": [
+      "on",
+      "in",
+      "for",
+      "at"
+    ],
+    "answer": 0,
+    "rule_short": "'insist on doing sth' - qat'iy turib olmoq, talab qilmoq.",
+    "rule_detailed": "'insist' fe'li qat'iy ravishda 'on' predlogi bilan birikadi va undan keyin Gerund (V-ing) keladi: 'insist on doing something'.",
+    "id": 61
+  },
+  {
+    "unit": "Review Test: Idioms",
+    "topic": "Collocations",
+    "q": "I bumped into Peter at the airport completely _____ the blue.",
+    "options": [
+      "out of",
+      "into",
+      "from",
+      "in"
+    ],
+    "answer": 0,
+    "rule_short": "'out of the blue' - kutilmaganda, osmondan tushgandek (unexpectedly).",
+    "rule_detailed": "'out of the blue' - ingliz tilidagi mashhur B2 darajali idiomadir. Ma'nosi: 'mutlaqo kutilmaganda, to'satdan' (completely unexpected).",
+    "id": 62
+  },
+  {
+    "unit": "Unit 1: Present Time",
+    "topic": "Present Tenses",
+    "q": "Scientists still _____ why the phenomenon occurs in deep oceans.",
+    "options": [
+      "don't understand",
+      "aren't understanding",
+      "haven't been understanding",
+      "not understand"
+    ],
+    "answer": 0,
+    "rule_short": "'understand' stative fe'l bo'lgani sababli faqat Present Simple inkorida (don't understand) keladi.",
+    "rule_detailed": "Fikrlash va aqliy faoliyat fe'llari (understand, know, believe, realize) stative fe'llar bo'lib, davomiy zamonlarda (Continuous) ishlatilmaydi.",
+    "id": 63
+  },
+  {
+    "unit": "Unit 1: Present Time",
+    "topic": "Present Tenses",
+    "q": "Why are you smelling the soup? _____ bad?",
+    "options": [
+      "Does it taste",
+      "Is it tasting",
+      "Has it tasted",
+      "Did it taste"
+    ],
+    "answer": 0,
+    "rule_short": "'taste' fe'li bu yerda ta'mga ega bo'lmoq ma'nosida stative bo'lib, Present Simpleda keladi.",
+    "rule_detailed": "'taste' agar oshpaz ta'mini tatib ko'rayotgan harakat bo'lsa Continuousda bo'ladi ('He is tasting the soup'). Ammo sho'rvaning o'zi ma'lum bir ta'mga egaligi stative bo'lib, 'Does it taste bad?' deyiladi.",
+    "id": 64
+  },
+  {
+    "unit": "Unit 2: Past Time",
+    "topic": "Past Tenses",
+    "q": "By the time the fire brigade arrived, the neighbors _____ out the fire.",
+    "options": [
+      "put",
+      "had put",
+      "were putting",
+      "have put"
+    ],
+    "answer": 1,
+    "rule_short": "'By the time + Past Simple' formulasi oldinroq tugagan ish uchun Past Perfect (had put) ni talab qiladi.",
+    "rule_detailed": "O'tmishdagi ikkita hodisa: o't o'chiruvchilar yetib kelishidan oldinroq qo'shnilar olovni o'chirib bo'lishgan. Ilgariroq sodir bo'lgani uchun Past Perfect (had put) ishlatiladi.",
+    "id": 65
+  },
+  {
+    "unit": "Unit 2: Past Time",
+    "topic": "Past Tenses",
+    "q": "I _____ always lose my keys when I lived in that messy apartment.",
+    "options": [
+      "would",
+      "used to",
+      "was used to",
+      "had"
+    ],
+    "answer": 0,
+    "rule_short": "'would always' o'tmishdagi xarakterli takroriy xatti-harakatlarni ifodalash uchun ishlatiladi.",
+    "rule_detailed": "'would always + bare infinitive' o'tgan zamonda doim takrorlanib turadigan bezovta qiluvchi yoki odatiy harakatlarni (past habits) ifodalashda juda keng qo'llanadi.",
+    "id": 66
+  },
+  {
+    "unit": "Unit 5: Future Time",
+    "topic": "Future Forms",
+    "q": "I'll lend you the novel as soon as I _____ reading it.",
+    "options": [
+      "finish",
+      "will finish",
+      "am finishing",
+      "have finished"
+    ],
+    "answer": 0,
+    "rule_short": "Vaqt va shart ergash gaplarida ('as soon as') kelasi zamon o'rniga Present Simple (finish) ishlatiladi.",
+    "rule_detailed": "'when', 'as soon as', 'until', 'before', 'after' kabi vaqt ergash gaplarida kelasi zamon (will) ishlatilmaydi; uning o'rniga Present Simple (finish) yoki Present Perfect qo'llanadi.",
+    "id": 67
+  },
+  {
+    "unit": "Unit 5: Future Time",
+    "topic": "Future Forms",
+    "q": "By the end of this year, Professor Higgins _____ at the university for 30 years.",
+    "options": [
+      "will teach",
+      "will be teaching",
+      "will have been teaching",
+      "is teaching"
+    ],
+    "answer": 2,
+    "rule_short": "'By + kelasi vaqt' va 'for 30 years' davomiyligi Future Perfect Continuous (will have been teaching) ni talab qiladi.",
+    "rule_detailed": "Kelajakdagi ma'lum bir muddatgacha bo'lgan vaqt oralig'idagi uzoq jarayonni ta'kidlash uchun Future Perfect Continuous (will have been + V-ing) qo'llanadi.",
+    "id": 68
+  },
+  {
+    "unit": "Unit 7: Passives & Causative",
+    "topic": "Passives",
+    "q": "The stolen jewelry is believed _____ hidden in an abandoned warehouse.",
+    "options": [
+      "to be",
+      "being",
+      "to have been",
+      "having been"
+    ],
+    "answer": 2,
+    "rule_short": "O'g'irlangan taqinchoqlar o'tmishda yashirib qo'yilgani taxmin qilinmoqda: 'is believed to have been hidden'.",
+    "rule_detailed": "Taqinchoqlar o'tmishda yashirilgan, shuning uchun 'to have been + V3' (Perfect Passive Infinitive) shakli qo'llaniladi.",
+    "id": 69
+  },
+  {
+    "unit": "Unit 7: Passives & Causative",
+    "topic": "Causatives",
+    "q": "My car was making strange noises, so I got the mechanic _____ the engine.",
+    "options": [
+      "check",
+      "to check",
+      "checked",
+      "checking"
+    ],
+    "answer": 1,
+    "rule_short": "'get someone to do something' andozasi: 'got the mechanic to check'.",
+    "rule_detailed": "Causative fe'li 'have' bo'lsa to-siz keladi ('had the mechanic check'), ammo 'get' fe'li bo'lsa 'to + infinitive' talab qiladi: 'get someone to do something'.",
+    "id": 70
+  },
+  {
+    "unit": "Unit 8: Modals 1",
+    "topic": "Modals",
+    "q": "We _____ bought tickets in advance; the concert was completely free!",
+    "options": [
+      "needn't have",
+      "didn't need to",
+      "mustn't have",
+      "couldn't have"
+    ],
+    "answer": 0,
+    "rule_short": "'needn't have + V3' - qilingan, ammo aslida keraksiz bo'lgan ish-harakat uchun ishlatiladi.",
+    "rule_detailed": "'needn't have bought' - chipta sotib olindi, lekin konsert tekin ekanligi ma'lum bo'lgach bu behuda qilingani ayon bo'ldi. 'didn't need to buy' bo'lsa sotib olinmaganligini anglatardi.",
+    "id": 71
+  },
+  {
+    "unit": "Unit 11: Modals 2",
+    "topic": "Modals",
+    "q": "Mark isn't answering his phone. He _____ left his phone at home.",
+    "options": [
+      "might have",
+      "should have",
+      "must to",
+      "can"
+    ],
+    "answer": 0,
+    "rule_short": "O'tmishdagi ehtimollik: 'might have + V3' (uyda qoldirgan bo'lishi mumkin).",
+    "rule_detailed": "O'tgan zamondagi noaniq ehtimol (weak possibility) uchun 'may have' yoki 'might have + Past Participle' ishlatiladi.",
+    "id": 72
+  },
+  {
+    "unit": "Unit 17: Conditionals",
+    "topic": "Conditionals",
+    "q": "_____ had I known about the party, I would definitely have attended.",
+    "options": [
+      "If",
+      "Had",
+      "Were",
+      "Should"
+    ],
+    "answer": 1,
+    "rule_short": "Third conditionalda 'if' tushib qolganda inversiya: 'Had I known...'.",
+    "rule_detailed": "'If I had known' o'rniga inversiya usulida 'if' olib tashlanadi va yordamchi 'had' egadan oldinga o'tadi: 'Had I known...'.",
+    "id": 73
+  },
+  {
+    "unit": "Unit 17: Conditionals",
+    "topic": "Conditionals",
+    "q": "_____ you happen to see Jessica, please ask her to return my book.",
+    "options": [
+      "Should",
+      "Were",
+      "Had",
+      "Could"
+    ],
+    "answer": 0,
+    "rule_short": "First conditional inversiyasi: 'Should you happen to see...' = 'If you happen to see...'.",
+    "rule_detailed": "First conditionalda 'if' o'rniga 'Should' gap boshiga qo'yilganda ehtimollik 'mabodo ko'rib qolsangiz' ma'nosini beradi: 'Should you see...'.",
+    "id": 74
+  },
+  {
+    "unit": "Unit 23: Inversion",
+    "topic": "Inversion",
+    "q": "Under no circumstances _____ allowed into the laboratory without safety goggles.",
+    "options": [
+      "visitors are",
+      "are visitors",
+      "visitors be",
+      "will visitors"
+    ],
+    "answer": 1,
+    "rule_short": "'Under no circumstances' (hech qanday holatda) inkor iborasi bilan inversiya (are visitors) qilinadi.",
+    "rule_detailed": "'Under no circumstances' taqiqlovchi inkor iborasi gap boshida kelsa, asosiy gapda yordamchi fe'l egadan oldinga o'tadi: 'Under no circumstances are visitors allowed...'.",
+    "id": 75
+  },
+  {
+    "unit": "Unit 23: Inversion",
+    "topic": "Inversion",
+    "q": "Seldom _____ such an inspiring and emotional performance on stage.",
+    "options": [
+      "we have witnessed",
+      "have we witnessed",
+      "we witnessed",
+      "did we witnessed"
+    ],
+    "answer": 1,
+    "rule_short": "'Seldom' (kamdan-kam) cheklovchi so'zi bilan inversiya: 'have we witnessed'.",
+    "rule_detailed": "'Seldom', 'Rarely', 'Little' gap boshiga chiqqanda qat'iy inversiya qoidasi qo'llanadi: 'Seldom have we witnessed...'.",
+    "id": 76
+  },
+  {
+    "unit": "Unit 25: -ing or Infinitive",
+    "topic": "Gerunds & Infinitives",
+    "q": "I regret _____ you that your application for the scholarship has been unsuccessful.",
+    "options": [
+      "informing",
+      "to inform",
+      "inform",
+      "having informed"
+    ],
+    "answer": 1,
+    "rule_short": "'regret to inform' - afsus bilan ma'lum qilmoq (rasmiy xabar berishda ishlatiladi).",
+    "rule_detailed": "'regret to inform / say / tell' - yomon xabarni aytishdan oldin 'afsuski, sizga shuni bildiraman' ma'nosida doimo to-infinitive bilan keladi. 'regret + V-ing' esa o'tmishda qilingan ishdan pushaymon bo'lishdir.",
+    "id": 77
+  },
+  {
+    "unit": "Unit 25: -ing or Infinitive",
+    "topic": "Gerunds & Infinitives",
+    "q": "There is no point in _____ about something you cannot change.",
+    "options": [
+      "to worry",
+      "worrying",
+      "worry",
+      "worried"
+    ],
+    "answer": 1,
+    "rule_short": "'There is no point in doing sth' - biror narsa qilishdan foyda yo'q (ortidan Gerund keladi).",
+    "rule_detailed": "'There is no point (in) + V-ing', 'It's no use + V-ing', 'It's worth + V-ing' turg'un iboralari har doim Gerund (-ing) shaklini talab qiladi.",
+    "id": 78
+  },
+  {
+    "unit": "Unit 3: Travel & Transport",
+    "topic": "Phrasal Verbs",
+    "q": "My parents came to the airport to see me _____ before my departure for Canada.",
+    "options": [
+      "off",
+      "out",
+      "away",
+      "in"
+    ],
+    "answer": 0,
+    "rule_short": "'see someone off' - biror kishini kuzatib qo'ymoq (aeroport yoki vokzalda).",
+    "rule_detailed": "'see off' iboraviy fe'li safarga ketayotgan do'st yoki yaqin insonni aeroport yoki bekatgacha kuzatib borib xayrlashishni bildiradi (go to an airport or station to say goodbye). 'see out' esa xonadan tashqarigacha kuzatib qo'yishdir.",
+    "id": 79
+  },
+  {
+    "unit": "Unit 3: Travel & Transport",
+    "topic": "Phrasal Verbs",
+    "q": "Can you drop me _____ near the central library on your way to work?",
+    "options": [
+      "off",
+      "out",
+      "away",
+      "down"
+    ],
+    "answer": 0,
+    "rule_short": "'drop someone off' - mashinada yo'l-yo'lakay tushirib ketmoq.",
+    "rule_detailed": "'drop off' - biror kishini mashinada olib borib, manziliga yetganda tushirib qoldirish ma'nosidagi eng mashhur B2 transport fe'lidir (let someone out of a vehicle). 'drop out' esa o'qishni tashlab ketishdir.",
+    "id": 80
+  },
+  {
+    "unit": "Unit 4: Hobbies & Sport",
+    "topic": "Phrasal Verbs",
+    "q": "The tennis match had to be put _____ until next Monday due to torrential rain.",
+    "options": [
+      "off",
+      "away",
+      "down",
+      "out"
+    ],
+    "answer": 0,
+    "rule_short": "'put off' - tadbir yoki o'yinni keyingi muddatga qoldirmoq (postpone).",
+    "rule_detailed": "'put off' fe'li biror voqea yoki uchrashuvni boshqa vaqtga kechiktirishni (postpone or delay) bildiradi. 'call off' esa tadbirni butunlay bekor qilishdir (cancel).",
+    "id": 81
+  },
+  {
+    "unit": "Unit 4: Hobbies & Sport",
+    "topic": "Phrasal Verbs",
+    "q": "Everyone was dancing happily, so we decided to join _____ the celebration.",
+    "options": [
+      "in",
+      "on",
+      "with",
+      "up"
+    ],
+    "answer": 0,
+    "rule_short": "'join in' - boshqalar bajarayotgan faoliyat yoki o'yinga qo'shilmoq.",
+    "rule_detailed": "'join in' - mavjud umumiy o'yin, raqs yoki faoliyatga ishtirokchi bo'lib qo'shilishni bildiradi (participate in an ongoing activity). 'join up' esa armiyaga yoki tashkilotga a'zo bo'lishdir.",
+    "id": 82
+  },
+  {
+    "unit": "Unit 9: Science & Tech",
+    "topic": "Phrasal Verbs",
+    "q": "The research team finally came _____ an innovative solution to battery degradation.",
+    "options": [
+      "up with",
+      "down with",
+      "in for",
+      "out of"
+    ],
+    "answer": 0,
+    "rule_short": "'come up with an idea/solution' - yangi g'oya yoki yechim o'ylab topmoq.",
+    "rule_detailed": "'come up with' - muammoning yechimi, reja yoki yangi g'oyani o'ylab topish/taklif qilish ma'nosidagi asosiy B2 iboraviy fe'lidir (think of or produce an idea/solution).",
+    "id": 83
+  },
+  {
+    "unit": "Unit 9: Science & Tech",
+    "topic": "Phrasal Verbs",
+    "q": "The scientists carried _____ dozens of laboratory experiments to verify the hypothesis.",
+    "options": [
+      "out",
+      "on",
+      "through",
+      "off"
+    ],
+    "answer": 0,
+    "rule_short": "'carry out an experiment' - ilmiy tajriba yoki tadqiqot o'tkazmoq.",
+    "rule_detailed": "'carry out' - tajriba, tadqiqot, buyruq yoki so'rovnomani amalda bajarish/o'tkazishni bildiradi (perform or conduct an experiment/survey). 'carry on' esa davom ettirishni anglatadi.",
+    "id": 84
+  },
+  {
+    "unit": "Unit 10: The Media",
+    "topic": "Phrasal Verbs",
+    "q": "It was so foggy that the pilot could hardly make _____ the runway lights.",
+    "options": [
+      "out",
+      "up",
+      "off",
+      "for"
+    ],
+    "answer": 0,
+    "rule_short": "'make out' - qorong'uda yoki tuman ichida zo'rg'a ko'rib / eshitib ilg'amoq.",
+    "rule_detailed": "'make out' - ko'rish yoki eshitish qiyin bo'lgan holatda biror narsani arang ilg'ash, farqlashni bildiradi (see, hear, or understand with difficulty). 'make up' esa to'qib chiqarmoq yoki yarashmoq.",
+    "id": 85
+  },
+  {
+    "unit": "Unit 15: People & Daily Life",
+    "topic": "Phrasal Verbs",
+    "q": "Young athletes often look _____ their national champions as role models.",
+    "options": [
+      "up to",
+      "down on",
+      "forward to",
+      "out for"
+    ],
+    "answer": 0,
+    "rule_short": "'look up to someone' - kimnidir hurmat qilmoq, havas bilan ibrat olmoq.",
+    "rule_detailed": "'look up to' - biror kishiga katta hurmat bilan qarash va undan o'rnak olish (admire and respect someone). Uning aksi 'look down on' (mensimaslik) hisoblanadi.",
+    "id": 86
+  },
+  {
+    "unit": "Unit 15: People & Daily Life",
+    "topic": "Phrasal Verbs",
+    "q": "The two brothers had a huge argument and fell _____ over the family inheritance.",
+    "options": [
+      "out",
+      "through",
+      "apart",
+      "down"
+    ],
+    "answer": 0,
+    "rule_short": "'fall out with someone' - kimdir bilan janjallashib, aloqani uzmoq.",
+    "rule_detailed": "'fall out (with someone)' - urishib qolish va do'stona munosabatni to'xtatish (have an argument and stop being friendly). 'fall through' esa rejalar barbod bo'lishidir.",
+    "id": 87
+  },
+  {
+    "unit": "Unit 16: Law & Crime",
+    "topic": "Phrasal Verbs",
+    "q": "Because it was his first minor offense, the judge decided to let him _____ with a warning.",
+    "options": [
+      "off",
+      "out",
+      "away",
+      "down"
+    ],
+    "answer": 0,
+    "rule_short": "'let someone off' - jazodan kechmoq, yengil ogohlantirish bilan qo'yib yubormoq.",
+    "rule_detailed": "'let someone off' - qonunbuzar yoki aybdorga og'ir jazo bermasdan afv etish yoki yengil chora bilan qutqarish (give someone little or no punishment). 'let down' esa umidni oqlamaslikdir.",
+    "id": 88
+  },
+  {
+    "unit": "Unit 21: Health & Fitness",
+    "topic": "Phrasal Verbs",
+    "q": "I feel exhausted and I think I am coming _____ the flu.",
+    "options": [
+      "down with",
+      "up with",
+      "round to",
+      "out of"
+    ],
+    "answer": 0,
+    "rule_short": "'come down with an illness' - shamollash yoki yuqumli kasallikka chalinmoq.",
+    "rule_detailed": "'come down with' - shamollash, gripp yoki boshqa kasallik alomatlari boshlanib og'rib qolish (become ill with an infection or disease). 'come up with' esa g'oya o'ylab topishdir.",
+    "id": 89
+  },
+  {
+    "unit": "Unit 21: Health & Fitness",
+    "topic": "Phrasal Verbs",
+    "q": "The room was so hot and stuffy that two spectators passed _____ during the ceremony.",
+    "options": [
+      "out",
+      "away",
+      "over",
+      "off"
+    ],
+    "answer": 0,
+    "rule_short": "'pass out' - hushidan ketmoq, behush bo'lib yiqilmoq (faint).",
+    "rule_detailed": "'pass out' - kislorod yetishmasligi yoki issiqdan xushidan ketishni bildiradi (become unconscious / faint). 'pass away' esa vafot etish ma'nosidagi muloyim iboradir.",
+    "id": 90
+  },
+  {
+    "unit": "Unit 22: Food & Drink",
+    "topic": "Phrasal Verbs",
+    "q": "Don't drink that milk! It has been left in the sun and has gone _____.",
+    "options": [
+      "off",
+      "down",
+      "out",
+      "away"
+    ],
+    "answer": 0,
+    "rule_short": "'go off' - oziq-ovqat yoki sut mahsulotlarining aynib / buzilib qolishi.",
+    "rule_detailed": "'go off' ovqat yoki ichimlikka nisbatan qo'llanganda aynish, eskirib iste'molga yaroqsiz holga kelishni bildiradi (spoil or become no longer fresh to eat/drink).",
+    "id": 91
+  },
+  {
+    "unit": "Unit 27: Education",
+    "topic": "Phrasal Verbs",
+    "q": "Because she was ill for three weeks, Amanda fell _____ with her school coursework.",
+    "options": [
+      "behind",
+      "out",
+      "back",
+      "down"
+    ],
+    "answer": 0,
+    "rule_short": "'fall behind with studies/work' - o'qishda yoki ishda darslardan orqada qolib ketmoq.",
+    "rule_detailed": "'fall behind (with something)' - belgilangan muddat yoki sinfdoshlar sur'atiga yetolmay orqada qolish (fail to keep up with work or payments). Uning yechimi 'catch up with' (quvib yetish) hisoblanadi.",
+    "id": 92
+  },
+  {
+    "unit": "Unit 27: Education",
+    "topic": "Phrasal Verbs",
+    "q": "Please make sure you hand _____ your term papers by Friday noon at the latest.",
+    "options": [
+      "in",
+      "out",
+      "over",
+      "on"
+    ],
+    "answer": 0,
+    "rule_short": "'hand in an assignment' - yozma ish yoki topshiriqni o'qituvchiga topshirmoq.",
+    "rule_detailed": "'hand in' - bajarilgan vazifa yoki hujjatni mas'ul shaxsga rasman topshirish (submit school work or a document to an authority). 'hand out' esa tarqatishdir (distribute).",
+    "id": 93
+  },
+  {
+    "unit": "Unit 28: Work & Business",
+    "topic": "Phrasal Verbs",
+    "q": "Due to increasing international orders, the factory needs to take _____ twenty new technicians.",
+    "options": [
+      "on",
+      "up",
+      "over",
+      "in"
+    ],
+    "answer": 0,
+    "rule_short": "'take on staff' - yangi ishchilarni ishga qabul qilmoq (employ).",
+    "rule_detailed": "'take on' ish kontekstida yangi xodimlarni yollash, ishga qabul qilishni bildiradi (employ staff). 'take over' esa kompaniyani sotib olib nazoratga olishdir.",
+    "id": 94
+  },
+  {
+    "unit": "Unit 28: Work & Business",
+    "topic": "Phrasal Verbs",
+    "q": "After thirty years of dedicated service, the CEO decided to step _____ and let younger leadership take over.",
+    "options": [
+      "down",
+      "aside",
+      "out",
+      "off"
+    ],
+    "answer": 0,
+    "rule_short": "'step down' - mansab yoki lavozimdan ixtiyoriy ravishda iste'foga chiqmoq.",
+    "rule_detailed": "'step down (or step aside)' - yuqori lavozim, rahbarlik yoki hokimiyatdan o'z xohishi bilan ketishni bildiradi (resign from an important position).",
+    "id": 95
+  },
+  {
+    "unit": "Review Test: Prepositions",
+    "topic": "Word Patterns",
+    "q": "The athlete was banned from competing because he had tested positive _____ prohibited substances.",
+    "options": [
+      "for",
+      "to",
+      "with",
+      "in"
+    ],
+    "answer": 0,
+    "rule_short": "'test positive for sth' - tibbiyot va sportda taqiqlangan moddaga ijobiy natija bermoq.",
+    "rule_detailed": "Tibbiy tahlillar va sport dopingtahlillarida biror kasallik yoki modda aniqlanishi 'test positive for' predlogi bilan ifodalanadi.",
+    "id": 96
+  },
+  {
+    "unit": "Review Test: Collocations",
+    "topic": "Collocations",
+    "q": "You shouldn't take her comments to _____ ; she was just having a stressful day.",
+    "options": [
+      "heart",
+      "mind",
+      "soul",
+      "head"
+    ],
+    "answer": 0,
+    "rule_short": "'take something to heart' - gap-so'zlarni ko'ngilga yaqin olib xafa bo'lmoq.",
+    "rule_detailed": "'take something to heart' turg'un idiomatik birikmasi birovning tanqidi yoki gapini yurakka yaqin olib qattiq ta'sirlanishni bildiradi (be deeply affected or upset by criticism).",
+    "id": 97
+  },
+  {
+    "unit": "Review Test: Collocations",
+    "topic": "Collocations",
+    "q": "The elevator in our office building has been out of _____ all morning.",
+    "options": [
+      "order",
+      "work",
+      "use",
+      "function"
+    ],
+    "answer": 0,
+    "rule_short": "'out of order' - mexanizm yoki texnikaning ishdan chiqqanligi, buzilganligi.",
+    "rule_detailed": "Mashinalar, liftlar, telefonlar yoki jamoat texnikasi buzilib ishlamay turganda faqat 'out of order' iborasi ishlatiladi. Odamlarga nisbatan esa 'out of work' (ishsiz) deyiladi.",
+    "id": 98
+  },
+  {
+    "unit": "Unit 3: Travel & Transport",
+    "topic": "Collocations",
+    "q": "We took a wrong turn and ended up going completely _____ the wrong direction.",
+    "options": [
+      "in",
+      "to",
+      "on",
+      "towards"
+    ],
+    "answer": 0,
+    "rule_short": "'in the wrong direction' - noto'g'ri yo'nalishda ketmoq.",
+    "rule_detailed": "'in this/that/the wrong direction' turg'un prepositional phrase bo'lib, har doim 'in' predlogi bilan keladi: 'heading in the wrong direction'.",
+    "id": 99
+  },
+  {
+    "unit": "Unit 4: Hobbies & Sport",
+    "topic": "Collocations",
+    "q": "I challenged Alex _____ a game of chess after school.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "at"
+    ],
+    "answer": 0,
+    "rule_short": "'challenge someone to a game/match' - biror kishini o'yinga chorlamoq.",
+    "rule_detailed": "'challenge + person + TO + game/duel' - kimnidir musobaqa yoki bellashuvga chaqirishda 'to' predlogi ishlatiladi.",
+    "id": 100
+  },
+  {
+    "unit": "Unit 8: Modals 1",
+    "topic": "Modal Verbs",
+    "q": "You had _____ finish your homework before dad comes home.",
+    "options": [
+      "better",
+      "rather",
+      "prefer",
+      "good"
+    ],
+    "answer": 0,
+    "rule_short": "'had better + bare infinitive' - qilganing yaxshi / ma'qul (kuchli maslahat).",
+    "rule_detailed": "'had better + do sth' hozirgi yoki kelasi zamonda kuchli tavsiya yoki ogohlantirishni bildiradi ('qilsang yaxshiroq bo'lardi, aks holda yomon oqibat bo'ladi'). 'would rather' esa xohlash/afzal ko'rish ma'nosidadir.",
+    "id": 101
+  },
+  {
+    "unit": "Unit 10: The Media",
+    "topic": "Collocations",
+    "q": "The news about the celebrity wedding made _____ on every major newspaper.",
+    "options": [
+      "headlines",
+      "fronts",
+      "titles",
+      "headers"
+    ],
+    "answer": 0,
+    "rule_short": "'make headlines' - gazeta sarlavhalariga chiqmoq, katta shov-shuv ko'tarmoq.",
+    "rule_detailed": "'make headlines' ommaviy axborot vositalari va gazetalarning birinchi sahifasidagi asosiy xabarga aylanishni ifodalovchi B2 collocationidir.",
+    "id": 102
+  },
+  {
+    "unit": "Unit 13: Articles",
+    "topic": "Articles",
+    "q": "My brother plays _____ guitar in a local rock band on weekends.",
+    "options": [
+      "the",
+      "a",
+      "an",
+      "—"
+    ],
+    "answer": 0,
+    "rule_short": "Musiqa asboblarini chalish ma'nosida doimo 'the' artikli qo'yiladi: 'play the guitar'.",
+    "rule_detailed": "Ingliz tilida musiqa asboblarini chalish ('play the piano', 'play the guitar', 'play the violin') doimo aniq artikl 'the' bilan keladi. Sport o'yinlarida esa aksincha artikl qo'yilmaydi ('play football').",
+    "id": 103
+  },
+  {
+    "unit": "Unit 14: Determiners",
+    "topic": "Determiners",
+    "q": "_____ of the two candidates was qualified enough for the managerial post.",
+    "options": [
+      "Neither",
+      "None",
+      "Both not",
+      "Either not"
+    ],
+    "answer": 0,
+    "rule_short": "Faqat ikkita shaxs yoki narsaning hech biri ma'nosida 'Neither' ishlatiladi.",
+    "rule_detailed": "Ikkita obyekt/shaxs haqida gap ketganda ('of the two candidates') faqat 'Neither' qo'llaniladi. Agar uchtadan ko'p bo'lsa 'None' ishlatiladi.",
+    "id": 104
+  },
+  {
+    "unit": "Unit 15: People & Daily Life",
+    "topic": "Collocations",
+    "q": "Although they are twins, they have very little in _____ with each other.",
+    "options": [
+      "common",
+      "shared",
+      "alike",
+      "similar"
+    ],
+    "answer": 0,
+    "rule_short": "'have sth in common' - o'xshashlik yoki umumiy manfaatlarga ega bo'lmoq.",
+    "rule_detailed": "'have something/little/nothing in common (with)' - umumiy jihati yoki qiziqishlari bo'lishni anglatuvchi turg'un iboradir.",
+    "id": 105
+  },
+  {
+    "unit": "Unit 16: Law & Crime",
+    "topic": "Collocations",
+    "q": "The corrupt official was placed _____ arrest early this morning.",
+    "options": [
+      "under",
+      "in",
+      "with",
+      "at"
+    ],
+    "answer": 0,
+    "rule_short": "'under arrest' - qamoqqa olingan, hibsga olingan holatda.",
+    "rule_detailed": "Huquqiy turg'un bog'lanma: 'under arrest' (hibsda), 'on bail' (garov evaziga ozodlikda), 'on trial' (sud jarayonida).",
+    "id": 106
+  },
+  {
+    "unit": "Unit 17: Conditionals",
+    "topic": "Conditionals",
+    "q": "I would rather you _____ smoke in the living room.",
+    "options": [
+      "didn't",
+      "don't",
+      "not to",
+      "won't"
+    ],
+    "answer": 0,
+    "rule_short": "'would rather + Subject + Past Simple' - boshqa shaxsning hozirgi xatti-harakatiga istak bildirish.",
+    "rule_detailed": "'would rather someone did something' - agar boshqa shaxs nazarda tutilsa (you), fe'l Past Simple shaklida keladi: 'I would rather you didn't smoke'.",
+    "id": 107
+  },
+  {
+    "unit": "Unit 17: Conditionals",
+    "topic": "Conditionals",
+    "q": "It is high time you _____ looking for a steady job.",
+    "options": [
+      "started",
+      "start",
+      "to start",
+      "starting"
+    ],
+    "answer": 0,
+    "rule_short": "'It is (high) time + Subject + Past Simple' - allaqachon vaqti yetgan ishni ifodalaydi.",
+    "rule_detailed": "'It is time / It is high time / It is about time + Subject + Past Simple' grammatik andozasi allaqachon bajarilishi kerak bo'lgan kechikkan ish-harakatni bildiradi: 'It is high time you started'.",
+    "id": 108
+  },
+  {
+    "unit": "Unit 19: Reported Speech",
+    "topic": "Reporting Verbs",
+    "q": "The doctor advised me _____ plenty of fluids and rest in bed.",
+    "options": [
+      "to drink",
+      "drinking",
+      "drink",
+      "that I drink"
+    ],
+    "answer": 0,
+    "rule_short": "'advise someone to do sth' andozasi: 'advised me to drink'.",
+    "rule_detailed": "'advise' fe'li to'ldiruvchi (me) bilan kelganda 'advise + person + to-infinitive' bo'ladi. Agar shaxs bo'lmasa, 'advise + V-ing' ishlatiladi ('He advised drinking plenty of fluids').",
+    "id": 109
+  },
+  {
+    "unit": "Unit 20: Relative Clauses",
+    "topic": "Relative Clauses",
+    "q": "The hotel _____ we stayed during our holiday had a stunning sea view.",
+    "options": [
+      "where",
+      "which",
+      "that",
+      "at which"
+    ],
+    "answer": 0,
+    "rule_short": "'where' - o'sha joyda harakat sodir bo'lgan o'rin-joy relative olmoshi ('where we stayed').",
+    "rule_detailed": "Mehmonxona bu yerda harakat sodir bo'lgan joy ma'nosida kelmoqda ('biz u yerda tunagan mehmonxona'). Agar 'which' ishlatilsa, oxirida 'at' bo'lishi kerak edi ('which we stayed at'). Shuning uchun 'where' to'g'ri.",
+    "id": 110
+  },
+  {
+    "unit": "Unit 21: Health & Fitness",
+    "topic": "Collocations",
+    "q": "Regular cardiovascular exercise helps you keep in _____.",
+    "options": [
+      "shape",
+      "form",
+      "body",
+      "health"
+    ],
+    "answer": 0,
+    "rule_short": "'keep in shape' - yaxshi jismoniy holatda / sport formasida bo'lmoq.",
+    "rule_detailed": "'keep in shape' yoki 'stay in shape' - sog'lom va jismonan baquvvat holatda bo'lishni ifodalovchi asosiy fitness collocationidir.",
+    "id": 111
+  },
+  {
+    "unit": "Unit 22: Food & Drink",
+    "topic": "Collocations",
+    "q": "My sister is on a strict _____ because she wants to lose weight for her wedding.",
+    "options": [
+      "diet",
+      "food",
+      "menu",
+      "eating"
+    ],
+    "answer": 0,
+    "rule_short": "'on a diet' - parhezda bo'lmoq (ozish maqsadida).",
+    "rule_detailed": "'be on a diet / go on a diet' - vazn yo'qotish yoki sog'liq uchun qat'iy parhez tutish ma'nosida keladi.",
+    "id": 112
+  },
+  {
+    "unit": "Unit 25: -ing or Infinitive",
+    "topic": "Gerunds & Infinitives",
+    "q": "He tried _____ the heavy door, but it was locked firmly from the inside.",
+    "options": [
+      "to push",
+      "pushing",
+      "push",
+      "pushed"
+    ],
+    "answer": 0,
+    "rule_short": "'try to do sth' - qiyin ishni bajarishga zo'r berib urinib ko'rmoq.",
+    "rule_detailed": "'try + to-infinitive' maqsadga erishish uchun harakat qilish, urinishni bildiradi (attempt to do something difficult). 'try + V-ing' esa sinab ko'rish/eksperiment qilishni anglatadi ('try adding some salt').",
+    "id": 113
+  },
+  {
+    "unit": "Unit 26: Comparison",
+    "topic": "Adjectives & Adverbs",
+    "q": "This laptop is twice _____ expensive as the one I bought two years ago.",
+    "options": [
+      "as",
+      "more",
+      "so",
+      "than"
+    ],
+    "answer": 0,
+    "rule_short": "Karratali qiyoslash: 'twice as ... as' (ikki barobar qimmat).",
+    "rule_detailed": "Karratali qiyoslashda (twice, three times, four times) 'as + adjective + as' tuzilmasi ishlatiladi: 'twice as expensive as'.",
+    "id": 114
+  },
+  {
+    "unit": "Unit 27: Education",
+    "topic": "Collocations",
+    "q": "Students are required to learn these historical dates by _____ for the exam.",
+    "options": [
+      "heart",
+      "memory",
+      "mind",
+      "brain"
+    ],
+    "answer": 0,
+    "rule_short": "'learn by heart' - yod olmoq, yoddan bilmoq (memorize).",
+    "rule_detailed": "'learn by heart' turg'un iborasi matn, she'r yoki sanalarni to'liq yodlab olishni bildiradi (memorize word for word).",
+    "id": 115
+  },
+  {
+    "unit": "Unit 28: Work & Business",
+    "topic": "Collocations",
+    "q": "Thousands of factory workers went on _____ demanding higher wages and better conditions.",
+    "options": [
+      "strike",
+      "protest",
+      "leave",
+      "holiday"
+    ],
+    "answer": 0,
+    "rule_short": "'go on strike' - ish tashlash qilmoq (norozilik sifatida ishni to'xtatmoq).",
+    "rule_detailed": "'go on strike' - xodimlar huquqlari yoki oylik maoshini oshirish talabi bilan ish tashlash o'tkazishni ifodalovchi turg'un mehnat atamasidir.",
+    "id": 116
+  }
+]
